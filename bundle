@@ -1,0 +1,6 @@
+#!/bin/bash
+test -d ./dist || mkdir ./dist
+rm -fr ./dist/*
+cp index.html ./dist
+mkdir ./dist/semantic
+cp -r semantic/dist ./dist/semantic
