@@ -1,6 +1,0 @@
-#!/bin/bash
-test -d ./dist || mkdir ./dist
-rm -fr ./dist/*
-cp app/index.html app/main.css app/main.js ./dist
-mkdir ./dist/semantic
-cp -r semantic/dist ./dist/semantic
