@@ -1,21 +1,27 @@
 :root {
-  --bright-color: #EF007F;
-  --bright-color-faded: rgba(255, 20, 147, 0.2);
-  --brighter-color: rgba(255, 20, 147, 1);
+  --bright-color: rgba(240, 0, 128, 1);
+  --bright-color-faded: rgba(240, 0, 128, 0.2);
+  --bright-color-faded-more: rgba(240, 0, 128, 0.1);
+  --brighter-color: rgba(255, 0, 147, 1);
+  --contrast-color: rgba(255, 255, 255, .9);
 }
 
 body {
   background: #000;
-  margin: 60px auto 0;
-  width: 800px;
   color: #fff;
   font-family: 'Work Sans', sans-serif;
   text-transform: lowercase;
+  margin: 0;
+}
+
+.narrow {
+  margin: 60px auto 0;
+  width: 800px;
 }
 
 @media only screen and (max-width: 600px) {
-  body {
-    margin: 60px 30px 0;
+  .narrow {
+    margin: 60px 20px 0;
     width: auto;
   }
 }
@@ -23,7 +29,7 @@ body {
 .menu {
   font-size: 12px;
   color: #000;
-  background: rgba(255,255,255,0.01);
+  background: transparent;
   position: absolute;
   top: 0;
   left: 0;
@@ -49,8 +55,9 @@ body {
     rgba(0,0,0,1) 1px,
     rgba(0,0,0,1) 4px
   );
-  border: 1px dotted rgba(255,20,147,0.5);
+  border: 2px solid var(--bright-color);
   border-radius: 8px;
+  box-shadow: 0 0 10px 10px #111; 
   margin: 20px;
 }
 
@@ -58,13 +65,14 @@ body {
   background: repeating-linear-gradient(
     45deg,
     rgba(0,0,0,1),
-    rgba(0,0,0,1) 1px,
-    var(--bright-color-faded) 1px,
-    var(--bright-color-faded) 10px
+    rgba(0,0,0,1) 10px,
+    var(--bright-color-faded-more) 10px,
+    var(--bright-color-faded-more) 20px
   );
   border: 1px dotted rgba(255,20,147,0.5);
   border-radius: 8px;
   margin: 20px;
+  box-shadow: none;
 }
 
 a {
@@ -73,7 +81,7 @@ a {
 }
 
 a:hover {
-  background: var(--brighter-color);
+  background: var(--brighter-color) !important;
   color: #000;
 }
 
@@ -86,7 +94,7 @@ h1 {
   text-align: center;
   font-family: 'Cabin Sketch', monospace;
   color: var(--brighter-color);
-  font-size: 62px;
+  font-size: 81px;
   font-weight: bold;
   padding: 40px;
   text-shadow:
@@ -95,6 +103,14 @@ h1 {
 	  -1px 1px 0 #000,
 	  1px 1px 0 #000;
 }
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 24px;
+} 
 
 h2, h3, h4 {
   font-weight: bold;
@@ -111,26 +127,61 @@ h2, h4 {
 }
 
 .splash strong {
+  padding: 6px;
+  text-shadow: 0 0 5px var(--bright-color-faded);
+  border: 1px solid #222;
   background: #fff;
   color: #000;
-  padding: 6px;
+  border-radius: 4px;
 }
 
 .splash .motto {
   margin: 80px 0 60px;
 }
 
+.splash h1 {
+  margin: 0 !important;
+  padding-top: 60px !important;
+  border: 0 !important;
+  border-bottom: 1px solid var(--bright-color) !important;
+  border-radius: 0 !important;
+}
+
+.splash em {
+  font-style: normal;
+  color: #fff;
+}
+
 .splash h2 {
   margin-bottom: 30px;
 }
 
+.splash sup {
+  font-size: 12px;
+  vertical-align: top;
+  margin-left: 5px;
+}
+
+.splash .button {
+  margin-top: 20px;
+  font-size: 28px;
+}
+
 a.button {
   display: inline-block;
-  border: 1px solid var(--bright-color);
   border-radius: 4px;
-  background: #000;
   padding: 8px 12px;
   font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  border-left: 1px solid var(--bright-color);
+  border-right: 1px solid var(--bright-color);
+  background: repeating-linear-gradient(
+    0deg,
+    var(--bright-color-faded),
+    var(--bright-color) 95%,
+    var(--brighter-color) 100%
+  );
 }
 
 .stats {
@@ -146,7 +197,7 @@ a.button {
 }
 
 .stat .label {
-  color: var(--bright-color);
+  color: var(--contrast-color);
 }
 
 .stat .value {
@@ -165,6 +216,14 @@ hr.weak {
   border-top: 1px dotted var(--bright-color-faded);
 }
 
+.overview {
+  font-size: 18px;
+}
+
 .overview .button {
-  font-size: 10px;
+  font-size: 18px;
+}
+
+.overview p:last-child {
+  margin-top: 30px;
 }
