@@ -2,6 +2,7 @@
   --bright-color: rgba(240, 0, 128, 1);
   --bright-color-faded: rgba(240, 0, 128, 0.2);
   --bright-color-faded-more: rgba(240, 0, 128, 0.1);
+  --bright-color-subtle: rgba(250, 0, 128, 0.7);
   --brighter-color: rgba(255, 0, 147, 1);
   --contrast-color: rgba(255, 255, 255, .9);
 }
@@ -77,7 +78,6 @@ body {
 
 a {
   color: var(--brighter-color);
-  border-bottom: 1px solid var(--bright-color);
 }
 
 a:hover {
@@ -114,7 +114,7 @@ h3 {
 
 h2, h3, h4 {
   font-weight: bold;
-  color: var(--brighter-color);
+  color: #fff;
 }
 
 h2, h4 {
@@ -131,8 +131,8 @@ h2, h4 {
   text-shadow: 0 0 5px var(--bright-color-faded);
   border: 1px solid #222;
   background: #fff;
-  color: #000;
   border-radius: 4px;
+  color: #000;
 }
 
 .splash .motto {
@@ -176,6 +176,7 @@ a.button {
   text-decoration: none;
   border-left: 1px solid var(--bright-color);
   border-right: 1px solid var(--bright-color);
+  border-bottom: 1px solid var(--bright-color);
   background: repeating-linear-gradient(
     0deg,
     var(--bright-color-faded),
@@ -220,10 +221,71 @@ hr.weak {
   font-size: 18px;
 }
 
+.overview strong {
+  color: var(--bright-color);
+}
+
 .overview .button {
   font-size: 18px;
 }
 
 .overview p:last-child {
   margin-top: 30px;
+}
+
+.overview em {
+  font-style: normal;
+  text-decoration: underline;
+}
+
+.filter {
+  margin: 0 0 40px;
+}
+
+.filter p {
+  display: inline;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.filter a {
+  background: #222;
+  text-decoration: none;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 8px;
+  border: 0;
+  margin: 0 6px;
+}
+
+.filter a.active {
+  background: var(--bright-color-subtle);
+  font-weight: bold;
+}
+
+.stories .note {
+  text-align: center;
+  font-weight: bold;
+  font-size: 12px;
+  color: #444;
+}
+
+.story {
+  margin: 40px;
+  background: #111;
+  color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 4px #fff;
+}
+
+.story .attribution {
+  text-align: right;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.story .spacer {
+  color: var(--brighter-color);
+  font-weight: normal;
 }
