@@ -1,6 +1,7 @@
 :root {
   --bright-color: rgba(240, 0, 128, 1);
   --bright-color-faded: rgba(240, 0, 128, 0.2);
+  --bright-color-faded-solid: rgba(51, 12, 29, 1);
   --bright-color-faded-more: rgba(240, 0, 128, 0.1);
   --bright-color-subtle: rgba(250, 0, 128, 0.7);
   --brighter-color: rgba(255, 0, 147, 1);
@@ -136,7 +137,8 @@ h2, h4 {
 }
 
 .splash .motto {
-  margin: 80px 0 60px;
+  margin: 80px 0 0;
+  z-index: 10;
 }
 
 .splash h1 {
@@ -162,9 +164,30 @@ h2, h4 {
   margin-left: 5px;
 }
 
+.splash .action {
+  position: absolute;
+  text-align: center;
+  z-index: 10;
+  left: 0;
+  right: 0;
+}
+
 .splash .button {
+  display: inline-block;
   margin-top: 20px;
   font-size: 28px;
+  box-shadow: 0 0 20px 10px #000;
+}
+
+#city {
+  width: 100%;
+  height: 150px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+#city svg {
+  border-bottom: 1px solid var(--brighter-color);
 }
 
 a.button {
@@ -179,7 +202,7 @@ a.button {
   border-bottom: 1px solid var(--bright-color);
   background: repeating-linear-gradient(
     0deg,
-    var(--bright-color-faded),
+    var(--bright-color-faded-solid),
     var(--bright-color) 95%,
     var(--brighter-color) 100%
   );
