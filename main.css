@@ -4,7 +4,7 @@
   --bright-color-faded: rgba(240, 0, 128, 0.2);
   --bright-color-faded-solid: rgba(51, 12, 29, 1);
   --bright-color-faded-more: rgba(240, 0, 128, 0.1);
-  --bright-color-subtle: rgba(250, 0, 128, 0.7);
+  --bright-color-subtle: rgba(240, 0, 128, 0.7);
   --brighter-color: rgba(255, 0, 147, 1);
   --contrast-color: rgba(255, 255, 255, .9);
 }
@@ -48,7 +48,28 @@ body {
 
 .menu li {
   display: inline;
-  padding: 20px;
+  padding-right: 10px;
+  margin-right: 10px;
+  border-right: 1px solid var(--bright-color-faded-less);
+}
+
+.menu li:last-child {
+  border: 0;
+}
+
+.menu a {
+  color: #fff;
+}
+
+.menu .main {
+  background: var(--bright-color);
+  border-radius: 2px;
+  padding: 4px;
+  color: #fff;
+}
+
+.menu .current {
+  font-weight: bold;
 }
 
 .box {
@@ -106,8 +127,11 @@ sup a:hover {
 
 mark {
   padding: 0 4px;
-  background: #777;
-  color: #000;
+  background: #000;
+  border: 1px solid #aaa;
+  border-radius: 2px;
+  color: #fff;
+  box-shadow: 0 0 4px 1px #000;
 }
 
 h3 mark {
@@ -145,10 +169,19 @@ h2, h4 {
   color: #fff;
 }
 
+h2 em {
+  color: var(--brighter-color);
+  font-style: normal;
+}
+
 h2.section {
   margin: 80px 0 40px;
-  border-bottom: 1px solid var(--bright-color);
+  border-bottom: 1px solid var(--bright-color-faded-less);
   position: relative;
+}
+
+h2.section em {
+  color: var(--bright-color-faded-less);
 }
 
 h2.section a {
@@ -344,7 +377,7 @@ hr.weak {
 .overview li {
   font-weight: normal;
   font-size: 16px;
-  line-height: 22px;
+  line-height: 28px;
   color: #ccc;
 }
 
@@ -378,6 +411,7 @@ hr.weak {
   border-radius: 8px;
   border: 0;
   margin: 0 4px;
+  text-decoration: underline;;
 }
 
 .filter a.active, .filter a:hover {
@@ -540,10 +574,62 @@ hr.weak {
   content: " \01F855";
 }
 
+.theme {
+  margin: 40px 0;
+}
+
+.theme h2 {
+  font-size: 38px;
+}
+
+.theme em {
+  color: #fff;
+  font-style: normal;
+}
+
+.theme mark {
+  background: #aaa;
+  color: #000;
+}
+
+.theme p {
+  font-size: 24px;
+  color: #888;
+}
+
+.steps h3 {
+  color: #ddd;
+}
+
+.steps li {
+  font-size: 22px;
+  text-indent: 10px;
+  margin-left: 40px;
+}
+
+.buttons .button {
+  margin-right: 20px;
+}
+
+.insta.button {
+  color: #ffc;
+}
+
+.fb.button {
+  color: #ccf;
+}
+
 .fade {
   opacity: 0;
   animation: 1s ease 0s fadeIn;
   animation-fill-mode: forwards;
+}
+
+.image {
+  text-align: center;
+}
+
+.image img {
 }
 
 @keyframes fadeIn {
