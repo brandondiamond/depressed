@@ -132,6 +132,10 @@ mark {
   border-radius: 2px;
 }
 
+mark a {
+  color: #fff;
+}
+
 h3 mark {
   background: var(--bright-color);
 }
@@ -687,7 +691,7 @@ hr.weak {
 }
 
 .theme p {
-  font-size: 24px;
+  font-size: 18px;
   color: #888;
 }
 
@@ -743,6 +747,35 @@ hr.weak {
     width: 100%;
     max-width: 600px;
   }
+}
+
+.urgent {
+  background: var(--bright-color-faded-more);
+  border-radius: 8px;
+  padding: 8px 20px;
+}
+
+.urgent p:first-child {
+  font-weight: bold;
+}
+
+.pink {
+  display: inline-block;
+  color: var(--brighter-color);
+  background: var(--brighter-color);
+  border-radius: 2px;
+  width: 10px;
+  height: 10px;
+  vertical-align: middle;
+  margin: 2px;
+  border: 1px solid rgba(255,255,255,0.5);
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 12px;
+  color: #888;
 }
 
 @keyframes fadeIn {
