@@ -520,6 +520,7 @@ hr.weak {
   font-family: monospace;
   font-size: 12px;
   color: #888;
+  margin-bottom: 5px;
 }
 
 .references a {
@@ -533,9 +534,15 @@ hr.weak {
   color: #eee !important;
 }
 
+.references :target {
+  border: 1px solid var(--brighter-color);
+  padding: 8px 8px;
+}
+
 .references li a:last-child {
   color: var(--bright-color);
-  font-size: 18px;
+  font-size: 14px;
+  vertical-align: text-top;
   border: 0;
   font-weight: bold;
   opacity: .7;
@@ -619,7 +626,7 @@ hr.weak {
   margin: 10px;
   width: 20%;
   min-width: 100px;
-  border: 2px solid #666;
+  border: 2px solid #333;
   border-radius: 8px;
   background: #111;
 }
@@ -658,7 +665,7 @@ hr.weak {
 }
 
 .treatment .actions a:after {
-  content: " \2197";
+  content: " \2192";
 }
 
 .theme {
