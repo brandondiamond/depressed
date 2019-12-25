@@ -74,7 +74,7 @@ function animateCity(W, H) {
                .opacity(0)
                .stroke({ linejoin: 'round', linecap: 'round', color: gradient, width: 1 })
                .animate(1000)
-               .opacity(0.4);
+               .opacity(0.5);
   }
 
   function drawLights(draw, gfx, p, s, ss, d) {
@@ -101,6 +101,58 @@ function animateCity(W, H) {
   drawLights(draw, gfx, 10, 2, S, 1500);
 }
 
+function handleStories(p, $s) {
+  const active = {};
+  const $fs = $s.find(".filter a");
+  const $ps = $s.find(".pager");
+  let stories = [];
+  let page = 0, pages = 0;
+  $fs.click(function() {
+    const key = $(this).data("key");
+    if (key == "everything") {
+      $fs.not(".everything").each(function() {
+        active[$(this).data("key")] = true;
+      });
+    } else {
+      active[key] = !active[key];
+    }
+    for(let k in active) {
+      $fs.filter("[data-key=" + k + "]").toggleClass("active", active[k]);
+    }
+    $fs.filter(".everything").toggleClass("active", 
+      Object.values(active).filter((x)=>x).length == $fs.length - 1);
+    stories = [];
+    $(".story").each(function() {
+      const $t = $(this);
+      if (!$t.data("keys").split(" ").some((k) => active[k])) {
+        $t.removeClass("visible");
+        return;
+      }
+      stories.push($t);
+    });
+    pages = Math.ceil(stories.length / p);
+    $ps.find(".pages").empty();
+    for (let i=0; i<pages; i++) {
+      $ps.find(".pages").append($("<a href='#' data-page='" + (i) + "' class='page'>" + (i+1) + "</a>"));
+    }
+    $ps.find(".page").click(function() {
+      $ps.find(".page").removeClass("active");
+      const $p = $(this).addClass("active");
+      page = $p.data("page");
+      stories.forEach((s, i) => {
+        $(s).toggleClass("visible", page * p <= i && i < (page+1)*p);
+      });
+      return false;
+    });
+    if (pages < 2) $ps.hide();
+    else $ps.show();
+    $ps.find("[data-page=0]").click();
+    return false;
+  });
+  $fs.filter(".everything").click();
+}
+
 $(function() {
-  animateCity($("#city").width(), $("#city").height());
+  $("#city").length && animateCity($("#city").width(), $("#city").height());
+  $("#stories").length && handleStories(5, $("#stories"));
 });
