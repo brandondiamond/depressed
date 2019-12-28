@@ -12,104 +12,162 @@
 </head>
 
 <body>
-
-<div class="menu">
-  <ul>
-    <li><a class="current" href="index.html">Home</a></li>
-    <li><a href="stories.html">Stories</a></li>
-    <li><a href="facts.html">Facts</a></li>
-    <li><a class="main" href="action.html">Take Action</a></li>
-  </ul>
-</div>
-
-<div class="splash">
-  <h1 class="box invert"><span class="fade">NYC is <em>depressed</em>.</span></h1>
-  <div class="motto">
-    <h2>Nearly <strong>1 in 10</strong> New Yorkers are Depressed.<sup><a id="xs1" href="#s1">1</a></sup></h2>
-    <div class="action">
-      <a href="action.html" class="button">Take Action</a>
-    </div>
+<header>
+  <div class="logo">
+    <a href="index.html">depressed<em>.</em>nyc</a>
   </div>
-  <div id="city"></div>
-</div>
-
-<div class="narrow">
-  <div class="stats">
-    <div class="stat box">
-      <div class="value">
-        550,000+
+  <nav>
+    <span class="hamburger"></span> 
+    <ul>
+      <li><a href="stories.html">Stories</a></li>
+      <li><a href="facts.html">Facts</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a class="main" href="action.html">Take Action</a></li>
+    </ul>
+  </nav>
+</header>
+<section id="overview">
+  <div class="frame">
+    <div class="hero">
+      <div class="content">
+        <h1>Nearly <strong>1 in 10</strong> New Yorkers are Depressed.<sup><a id="xs1" href="#s1">1</a></sup></h1>
+        <div class="text">
+          <p>&hellip; and there's something you can do to help: <strong>end the stigma</strong>.</p>
+        </div>
+        <div class="actions">
+          <a class="button" href="action.html">Take Action</a>
+        </div>
       </div>
-      <div class="label">
-        Depressed New Yorkers<sup><a id="xs1" href="#s2">1</a></sup>
+
+      <div class="art">
+        <figure>
+          <img src="img/rain.svg">
+          <figcaption>This is a caption</figcaption>
+        </figure>
       </div>
     </div>
 
-    <div class="stat box">
-      <div class="value">
-        most
+    <div class="stats">
+      <div class="stat">
+        <img src="img/teardrop.svg">
+        <div class="value">
+          550,000+
+        </div>
+        <div class="label">
+          Depressed New Yorkers<sup><a id="xs1" href="#s2">1</a></sup>
+        </div>
       </div>
-      <div class="label">
-        Don't get treatment<sup><a id="xs1" href="#s1">1</a></sup>
+    
+      <div class="stat">
+        <img src="img/sad.svg">
+        <div class="value">
+          most
+        </div>
+        <div class="label">
+          Don't get treatment<sup><a id="xs1" href="#s1">1</a></sup>
+        </div>
+      </div>
+    
+      <div class="stat">
+        <img src="img/happy.svg">
+        <div class="value">
+          &gt; 80%
+        </div>
+        <div class="label">
+          improve when they do<sup><a id="xs2" href="#s2">2</a></sup>
+        </div>
       </div>
     </div>
+  </section>
+  
+  <section id="facts">
+    <div class="frame">
+      <div class="hero">
+        <div class="content">
+          <h1>Depression is a medical condition.</h1>
+          <div class="text">
+            <p><strong>This isn't our choice</strong>, and it's not just feeling "sad." Depression is a serious illness that affects our bodies and minds.</p>
+          </div>
+          <div class="actions">
+            <a class="button" href="facts.html">Learn the facts</a>
+          </div>
+        </div>
 
-    <div class="stat box">
-      <div class="value">
-        &gt; 80%
+        <div class="art">
+          <img src="img/bolt.svg">
+        </div>
       </div>
-      <div class="label">
-        improve when they do<sup><a id="xs2" href="#s2">2</a></sup>
+    </div>
+  </section>
+  
+  <section id="stories">
+    <div class="frame">
+      <div class="hero">
+        <div class="content">
+          <h1>Depression affects everyone.</h1>
+          <div class="text">
+            <p><strong>Anyone can be depressed.</strong> Depression doesn't discriminate: new yorkers from all backgrounds experience depression.</p>
+          </div>
+          <div class="actions">
+            <a class="button" href="stories.html">Read our facts</a>
+          </div>
+        </div>
+
+        <div class="art">
+          <img src="img/music.svg">
+        </div>
       </div>
     </div>
-  </div>
+  </section>
+    
+  <section id="action">
+    <div class="frame">
+      <div class="hero">
+        <div class="content">
+          <h1>You can help.</h1>
+          <div class="text">
+            <p><strong>Stigma makes treatment harder.</strong> Teaching people about depression can make a difference.</p>
+          </div>
+          <div class="actions">
+            <a class="button" href="action.html">Take action</a>
+          </div>
+        </div>
 
-  <hr />
-
-  <div class="overview">
-    <div class="summary">
-      <h3>Depression is a medical condition.</h3>
-      <p><strong>This isn't our choice</strong>, and it's not just feeling "sad." Depression is a serious illness that affects our bodies and minds.</p>
-      <p><a class="button" href="facts.html">Learn the facts</a></p>
+        <div class="art">
+          <img src="img/bar.svg">
+        </div>
+      </div>
     </div>
-
-    <hr class="weak" />
-
-    <div class="summary">
-      <h3>Depression affects everyone.</h3>
-      <p><strong>Anyone can be depressed.</strong> Depression doesn't discriminate: new yorkers from all backgrounds experience depression.</p>
-      <p><a class="button" href="stories.html">Read our stories</a></p>
+  </section>
+  
+  <section id="urgent">
+    <div class="frame">
+      <h1>Feeling overwhelmed? Call or text <a href="https://nycwell.cityofnewyork.us/en/">NYC Well</a> for confidential help.</h1>
+      <p>If you or someone you know is considering suicide, call the National Suicide Prevention Lifeline at <strong>1-800-273-8255</strong> or, in an emergency, <strong>911</strong>.</p>
     </div>
+  </section>
 
-    <hr class="weak" />
-
-    <div class="summary">
-      <h3>Depression is serious.</h3>
-      <p><strong>Symptoms can be debilitating.</strong> People living with depression shouldn't have to cope with the stigma, too.</p>
-      <p><a class="button" href="action.html">Stop the stigma</a></p>
+  <section id="references">
+      <div class="frame">
+        <h1>References</h1>
+        <ol>
+          <li id="s1">NYC Vital Signs. <a href="https://www1.nyc.gov/assets/doh/downloads/pdf/survey/depression.pdf">Depression among New York City Adults</a>. April 2018. Volume 17, Number 2. Accessed December 2019. <a href="#xs1">&#9650;</a></li>
+          <li id="s2">National Institute of Health, 1998. <a href="#xs2">&#9650;</a></li>
+        </ol>
+      </div>
+  </section>
+  
+  <footer>
+    <div class="logo">
+      <a href="index.html">depressed.nyc</a>
     </div>
-  </div>
-
-  <hr class="weak" />
-
-  <div class="urgent">
-    <p>Feeling overwhelmed? Call or text <a href="https://nycwell.cityofnewyork.us/en/">NYC Well</a> for confidential help.</p>
-    <p>If you or someone you know is considering suicide, call the National Suicide Prevention Lifeline at <strong>1-800-273-8255</strong> or, in an emergency, <strong>911</strong>.</p>
-  </div>
-
-  <hr />
-
-  <div class="references">
-    <h4>References</h4>
-    <ol>
-      <li id="s1">NYC Vital Signs. <a href="https://www1.nyc.gov/assets/doh/downloads/pdf/survey/depression.pdf">Depression among New York City Adults</a>. April 2018. Volume 17, Number 2. Accessed December 2019. <a href="#xs1">&#9650;</a></li>
-      <li id="s2">National Institute of Health, 1998. <a href="#xs2">&#9650;</a></li>
-    </ol>
-  </div>
-</div>
-
-<footer>
-  <p>Inspired by <span class="pink"></span> | <a href="about.html">about us</a></p>
-</footer>
-
+    <nav>
+      <ul>
+        <li>&copy; 2020</li>
+        <li><a href="legal.html">Legal</a></li>
+        <li>Inspired by <span class="pink"></span></li>
+      </ul>
+    </nav>
+  </footer>
 </body>
 </html>

@@ -152,7 +152,12 @@ function handleStories(p, $s) {
   $fs.filter(".everything").click();
 }
 
+function handleMenu($n) {
+  $n.find(".hamburger").click(() => $n.toggleClass("active"));
+}
+
 $(function() {
-  $("#city").length && animateCity($("#city").width(), $("#city").height());
+  //$("#city").length && animateCity($("#city").width(), $("#city").height());
   $("#stories").length && handleStories(5, $("#stories"));
+  handleMenu($("header nav"));
 });
