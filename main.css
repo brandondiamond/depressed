@@ -209,9 +209,9 @@ section {
   padding: 80px 115px;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 800px) {
   section {
-    padding: 80px 40px;
+    padding: 80px 40px 70px;
   }
 }
 
@@ -236,7 +236,7 @@ figcaption {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: space-between; 
+  justify-content: space-around; 
 }
 
 .hero .content {
@@ -258,10 +258,6 @@ figcaption {
   text-align: center;
 }
 
-.hero:first-child .art {
-  text-align: right;
-}
-
 .hero .art img {
   width: 100%;
   max-width: fit-content;
@@ -275,7 +271,7 @@ figcaption {
   text-align: center;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 800px) {
   .hero .content {
     flex: 1 0 100%;
     max-width: none;
@@ -383,7 +379,7 @@ header .hamburger {
   right: 0;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 800px) {
   header {
     padding: 30px 40px 0;
   }
@@ -500,7 +496,7 @@ footer .pink {
   margin-bottom: 140px;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 800px) {
   #overview .hero {
     margin-bottom: 70px;
   }
@@ -536,7 +532,7 @@ footer .pink {
   order: -1;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 800px) {
   #facts .art {
     order: 0;
   }
@@ -554,7 +550,7 @@ footer .pink {
   order: -1;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 800px) {
   #action .art {
     order: 0;
   }
@@ -589,7 +585,7 @@ footer .pink {
   margin: 0 auto;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 800px) {
   #urgent h1 {
     font-size: 24px;
     line-height: 32px;

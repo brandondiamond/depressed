@@ -157,7 +157,7 @@ function handleMenu($n) {
 }
 
 $(function() {
-  //$("#city").length && animateCity($("#city").width(), $("#city").height());
+  $("#city").length && animateCity($("#city").width(), $("#city").height());
   $("#stories").length && handleStories(5, $("#stories"));
   handleMenu($("header nav"));
 });
