@@ -1,19 +1,22 @@
 /* Support. */
 
 :root {
-  --light-tan-color:          #f9f7f4;
-  --dark-tan-color:           #f6ede4;
-  --lighter-tan-color:        #fefbf7;
-  --light-gray-color:         #666666;
-  --dark-gray-color:          #333333;
-  --lighter-gray-color:       #dad7d3;
-  --lightest-gray-color:      #f8f8f8;
-  --alternate-gray-color:     #acacac;
-  --light-blue-color:         #ebf3f5;
-  --dark-blue-color:          #99cfdb;
-  --red-color:                #d93c5e;
-  --pink-color:               #fa466c;
-  --white-color:              #ffffff;
+  --light-tan-color:                  #f9f7f4;
+  --dark-tan-color:                   #f6ede4;
+  --lighter-tan-color:                #fefbf7;
+  --light-gray-color:                 #666666;
+  --dark-gray-color:                  #333333;
+  --lighter-gray-color:               #dad7d3;
+  --lightest-gray-color:              #f8f8f8;
+  --alternate-gray-color:             #acacac;
+  --alternate-light-gray-color:       #c1c1c1;
+  --light-blue-color:                 #ebf3f5;
+  --dark-blue-color:                  #99cfdb;
+  --red-color:                        #d93c5e;
+  --pink-color:                       #fa466c;
+  --white-color:                      #ffffff;
+  --orange-color:                     #f9a01b;
+  --beige-color:                      #afa392;
 }
 
 @font-face {
@@ -143,6 +146,7 @@ a {
 }
 
 a.button {
+  display: inline-block;
   background: var(--dark-gray-color);
   border-radius: 2px;
   padding: 17px 42px;
@@ -154,6 +158,22 @@ a.button {
   letter-spacing: 0.3px;
 }
 
+a.button.outline {
+  background: transparent;
+  color: var(--darker-gray-color);
+  padding: 17px 39px;
+  border: 1px solid var(--alternate-light-gray-color);
+  border-radius: 2px;
+}
+
+hr {
+  display: block;
+  height: 100px;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
 h1 {
   font-family: 'Chronicle Display';
   font-size: 48px;
@@ -161,6 +181,19 @@ h1 {
   font-weight: normal;
   margin: 0;
   padding: 0;
+}
+
+h2 {
+  font-family: 'Work Sans';
+  font-weight: bold;
+  color: var(--dark-gray-color);
+  letter-spacing: 1px;
+  line-height: 24px;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 p {
@@ -209,6 +242,14 @@ section {
   padding: 80px 115px;
 }
 
+section.primary {
+  background: var(--light-tan-color);
+}
+
+section.secondary {
+  background: var(--white-color);
+}
+
 @media only screen and (max-width: 800px) {
   section {
     padding: 80px 40px 70px;
@@ -243,15 +284,11 @@ figcaption {
   flex: 1;
   min-width: 300px;
   max-width: 450px;
+  margin-bottom: 60px;
 }
 
 .hero .content .text {
-  margin: 18px 0 48px;
-}
-
-.hero .content .actions {
-  /* Prevents button from overlapping during flex wrap. */
-  margin-bottom: 80px;
+  margin: 18px 0 24px;
 }
 
 .hero .art {
@@ -303,6 +340,169 @@ figcaption {
   font-size: 14px;
   line-height: 24px;
   color: var(--light-gray-color);
+}
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+}
+
+.box {
+  background: var(--light-tan-color);
+  text-align: center;
+  margin: 15px;
+  padding: 48px;
+  flex: 1;
+}
+
+.box p {
+  font-family: 'Chronicle Display';
+  font-size: 26px;
+  line-height: 36px;
+  margin: 20px 0 45px;
+  border-radius: 4px;
+}
+
+.flow {
+  text-align: center;
+  padding: 40px 0;
+  margin: 0;
+}
+
+.flow li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.flow p {
+  margin: 0;
+}
+
+.flow hr {
+  background: var(--dark-tan-color);
+  height: 1px;
+  width: 400px;
+  margin: 40px auto 20px;
+}
+
+.flow .button {
+  margin-top: 20px;
+  width: 150px;
+}
+
+.filter p {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 24px;
+  letter-spacing: 1px;
+  color: var(--dark-gray-color);
+  margin-right: 30px;
+}
+
+.filter a {
+  font-family: 'Work Sans';
+  text-decoration: none;
+  display: inline-block;
+  margin-right: 30px;
+  color: var(--light-gray-color);
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.filter a.active {
+  color: var(--dark-gray-color);
+  border-bottom: 3px solid var(--orange-color);
+}
+
+.stories {
+}
+
+.story {
+  display: none;
+  background: var(--light-tan-color);
+  margin: 40px 0;
+}
+
+.story.visible {
+  display: flex;
+}
+
+.story img {
+  object-fit: cover;
+}
+
+.story p {
+  color: var(--dark-gray-color);
+  font-family: 'Chronicle Display';
+  font-size: 16px;
+  line-height: 28px;
+  text-align: justify;
+  color: var(--dark-gray-color);
+}
+
+.story .content {
+  flex: 1;
+  padding: 55px 100px;
+  align-self: center;
+}
+
+.story .date {
+  text-align: center;
+  font-family: 'Work Sans';
+  font-weight: bold;
+  font-size: 10px;
+  line-height: 24px;
+  letter-spacing: 0;
+  color: var(--beige-color);
+}
+
+.story .attribution {
+  text-align: center;
+  font-family: 'Work Sans';
+  font-size: 12px;
+  line-height: 24px;
+  color: var(--light-gray-color);
+}
+
+.story .attribution:before {
+  content: '\2014';
+}
+
+.story .name:after {
+  content: ' |';
+}
+
+.story .gender:after {
+  content: ' |';
+}
+
+.pager {
+  font-family: 'Work Sans';
+  font-size: 16px;
+  text-align: center;
+}
+
+.pager a {
+  text-decoration: none;
+}
+
+.pager .label {
+  color: var(--dark-gray-color);
+  font-weight: bold;
+}
+
+.pager .page {
+  color: var(--light-gray-color);
+  padding: 0 8px;
+}
+
+.pager .active {
+  font-weight: bold;
+  color: var(--pink-color);
 }
 
 /* Sections. */
@@ -524,34 +724,34 @@ footer .pink {
   background: var(--lighter-tan-color);
 }
 
-#facts {
+#facts-overview {
   background: var(--dark-tan-color);
 }
 
-#facts .art {
+#facts-overview .art {
   order: -1;
 }
 
 @media only screen and (max-width: 800px) {
-  #facts .art {
+  #facts-overview .art {
     order: 0;
   }
 }
 
-#stories {
+#stories-overview {
   background: var(--light-blue-color);
 }
 
-#action {
+#action-overview {
   background: var(--light-tan-color);
 }
 
-#action .art {
+#action-overview .art {
   order: -1;
 }
 
 @media only screen and (max-width: 800px) {
-  #action .art {
+  #action-overview .art {
     order: 0;
   }
 }
@@ -624,4 +824,8 @@ footer .pink {
   font-size: 14px;
   line-height: 24px;
   color: var(--dark-gray-color);
+}
+
+#about .boxes {
+  margin-top: 46px;
 }

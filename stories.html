@@ -12,76 +12,105 @@
 </head>
 
 <body>
-
-<div class="menu">
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a class="current" href="stories.html">Stories</a></li>
-    <li><a href="facts.html">Facts</a></li>
-    <li><a class="main" href="action.html">Take Action</a></li>
-  </ul>
-</div>
-
-<div class="splash">
-  <h1 class="box invert"><span class="fade">NYC is <em>depressed</em>.</span></h1>
-</div>
-
-<div class="narrow">
-  <h2>Read our stories.</h2>
-
-  <div class="overview">
-    <p>The following are stories shared by people living with depression in new york city.</p>
-    <p><a class="button" href="#">Add your story</a></p>
-  </div>
-
-  <hr />
-
-  <div id="stories">
-    <div class="filter">
-      <p>Show stories about</p>
-      <a href="#" class="everything" data-key="everything">everything</a>
-      <a href="#" data-key="challenges">challenges</a>
-      <a href="#" data-key="hope">hope</a>
-      <a href="#" data-key="man">men</a>
-      <a href="#" data-key="woman">women</a>
+  <header>
+    <div class="logo">
+      <a href="index.html">depressed<em>.</em>nyc</a>
     </div>
+    <nav>
+      <span class="hamburger"></span> 
+      <ul>
+        <li><a href="stories.html">Stories</a></li>
+        <li><a href="facts.html">Facts</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a class="main" href="action.html">Take Action</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <div class="stories">
-      <div class="story" data-keys="man hope">
-        <div class="date">December 24th, 2019</div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dui diam, sollicitudin sit amet lectus eu, elementum accumsan velit. Maecenas erat mauris, sagittis vel pulvinar eu, porta at lorem. Morbi dictum metus vitae aliquet ullamcorper. Vivamus sodales tincidunt massa eget maximus. Proin id arcu mi. Nam ante quam, aliquet vitae auctor in, laoreet nec enim. Vestibulum a eros mi. Praesent maximus mauris nec nunc volutpat vehicula. Etiam eleifend semper erat a euismod. Nulla condimentum neque eget orci dapibus vulputate. Maecenas congue, est vel rhoncus ultrices, dui arcu ornare enim, auctor gravida odio orci sit amet est. In at tortor ut mauris egestas efficitur a a eros. Sed convallis sapien nec quam porta, eu imperdiet massa maximus.</p>
-        <div class="attribution">
-          <span class="job">Engineer</span>
-          <span class="spacer">/</span>
-          <span class="gender">Man</span>
+  <section class="primary">
+    <div class="frame">
+      <div class="hero">
+        <div class="content">
+          <h1>Depression affects people from all backgrounds.</h1>
+          <div class="text">
+            <p>These stories capture our experiences with depression. They describe the experience of living with depression and serve as a reminder that <strong>none of us are alone</strong>.</p>
+          </div>
+          <a class="button outline" href="#">add your story</a>
         </div>
-      </div>
 
-      <div class="story" data-keys="woman challenges">
-        <div class="date">December 22nd, 2019</div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dui diam, sollicitudin sit amet lectus eu, elementum accumsan velit. Maecenas erat mauris, sagittis vel pulvinar eu, porta at lorem. Morbi dictum metus vitae aliquet ullamcorper. Vivamus sodales tincidunt massa eget maximus. Proin id arcu mi. Nam ante quam, aliquet vitae auctor in, laoreet nec enim. Vestibulum a eros mi. Praesent maximus mauris nec nunc volutpat vehicula. Etiam eleifend semper erat a euismod. Nulla condimentum neque eget orci dapibus vulputate. Maecenas congue, est vel rhoncus ultrices, dui arcu ornare enim, auctor gravida odio orci sit amet est. In at tortor ut mauris egestas efficitur a a eros. Sed convallis sapien nec quam porta, eu imperdiet massa maximus.</p>
-        <div class="attribution">
-          <span class="job">Executive</span>
-          <span class="spacer">/</span>
-          <span class="gender">Woman</span>
+        <div class="art">
+          <figure>
+            <img src="img/stories.svg">
+          </figure>
         </div>
       </div>
     </div>
+  </section>
 
-    <div class="pager">
-      <span class="label">Page </span>
-      <span class="pages"></span>
+  <section id="stories" class="secondary">
+    <div class="frame">
+      <div class="filter">
+        <p>Stories about</p>
+        <a href="#" class="everything" data-key="everything">everything</a>
+        <a href="#" data-key="challenges">challenges</a>
+        <a href="#" data-key="hope">hope</a>
+        <a href="#" data-key="man">men</a>
+        <a href="#" data-key="woman">women</a>
+      </div>
+
+      <div class="stories">
+        <div class="story" data-keys="man hope">
+          <img src="https://source.unsplash.com/random/390x450">
+          <div class="content">
+            <div class="date">December 24th, 2019</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dui diam, sollicitudin sit amet lectus eu, elementum accumsan velit. Maecenas erat mauris, sagittis vel pulvinar eu, porta at lorem. Morbi dictum metus vitae aliquet ullamcorper. Vivamus sodales tincidunt massa eget maximus. Proin id arcu mi. Nam ante quam, aliquet vitae auctor in, laoreet nec enim. Vestibulum a eros mi. Praesent maximus mauris nec nunc volutpat vehicula. Etiam eleifend semper erat a euismod. Nulla condimentum neque eget orci dapibus vulputate. Maecenas congue, est vel rhoncus ultrices, dui arcu ornare enim, auctor gravida odio orci sit amet est. In at tortor ut mauris egestas efficitur a a eros. Sed convallis sapien nec quam porta, eu imperdiet massa maximus.</p>
+            <div class="attribution">
+              <span class="name">Anonymous</span>
+              <span class="gender">Man</span>
+              <span class="job">Engineer</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="story" data-keys="woman challenges">
+          <img src="https://source.unsplash.com/random/390x450">
+          <div class="content">
+            <div class="date">December 22nd, 2019</div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas dui diam, sollicitudin sit amet lectus eu, elementum accumsan velit. Maecenas erat mauris, sagittis vel pulvinar eu, porta at lorem. Morbi dictum metus vitae aliquet ullamcorper. Vivamus sodales tincidunt massa eget maximus. Proin id arcu mi. Nam ante quam, aliquet vitae auctor in, laoreet nec enim. Vestibulum a eros mi. Praesent maximus mauris nec nunc volutpat vehicula. Etiam eleifend semper erat a euismod. Nulla condimentum neque eget orci dapibus vulputate. Maecenas congue, est vel rhoncus ultrices, dui arcu ornare enim, auctor gravida odio orci sit amet est. In at tortor ut mauris egestas efficitur a a eros. Sed convallis sapien nec quam porta, eu imperdiet massa maximus.</p>
+            <div class="attribution">
+              <span class="name">Anonymous</span>
+              <span class="gender">Woman</span>
+              <span class="job">Executive</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pager">
+        <span class="label">Page </span>
+        <span class="pages"></span>
+      </div>
     </div>
-  </div>
+  </section>
 
-  <hr />
-  
-  <div class="urgent">
-    <p>Feeling overwhelmed? Call or text <a href="https://nycwell.cityofnewyork.us/en/">NYC Well</a> for confidential help.</p>
-    <p>If you or someone you know is considering suicide, call the National Suicide Prevention Lifeline at <strong>1-800-273-8255</strong> or, in an emergency, <strong>911</strong>.</p>
-  </div>
-</div>
+  <section id="urgent">
+    <div class="frame">
+      <h1>Feeling overwhelmed? Call or text <a href="https://nycwell.cityofnewyork.us/en/">NYC Well</a> for confidential help.</h1>
+      <p>If you or someone you know is considering suicide, call the National Suicide Prevention Lifeline at <strong>1-800-273-8255</strong> or, in an emergency, <strong>911</strong>.</p>
+    </div>
+  </section>
 
+  <footer>
+    <div class="logo">
+      <a href="index.html">depressed.nyc</a>
+    </div>
+    <nav>
+      <ul>
+        <li>&copy; 2020</li>
+        <li><a href="legal.html">Legal</a></li>
+        <li>Inspired by <span class="pink"></span></li>
+      </ul>
+    </nav>
+  </footer>
 </body>
 </html>
-

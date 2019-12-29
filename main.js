@@ -158,6 +158,6 @@ function handleMenu($n) {
 
 $(function() {
   $("#city").length && animateCity($("#city").width(), $("#city").height());
-  $("#stories").length && handleStories(5, $("#stories"));
+  $("#stories").length && handleStories(1, $("#stories"));
   handleMenu($("header nav"));
 });
