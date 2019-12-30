@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <meta charset="utf-8">
+  <title>depressed.nyc</title>
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch:400,700|Open+Sans:300,400i,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <a href="index.html">depressed<em>.</em>nyc</a>
+    </div>
+    <nav>
+      <span class="hamburger"></span> 
+      <ul>
+        <li><a href="stories.html">Stories</a></li>
+        <li><a href="facts.html">Facts</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a class="main" href="action.html">Take Action</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="submit" class="primary informational">
+    <div class="frame">
+      <h1>Share Your Story</h1>
+      <p>
+        Sharing your experience is a great way to help others understand what depression feels like. It also helps people living with depression see that they aren't alone&mdash; and that there's hope with treatment.
+      </p>
+      
+      <form>
+        <div class="message">Your story has been submitted. Thank you!</div>
+        <div>
+          <label>Name <span>(Optional)</span></label>
+          <div class="hint">Your story will be labeled "anonymous" if left blank.</div>
+          <input type="text" name="name" placeholder="John Smith">
+        </div>
+        <div>
+          <label>Email <span>(Optional)</span></label>
+          <div class="hint">Never shared&mdash; we only use this to follow-up if needed.</div>
+          <input type="email" name="email" placeholder="jsmith@example.com">
+        </div>
+        <div>
+          <label>Sex <span>(Optional)</span></label>
+          <div class="hint">This information helps visitors find relevant stories.</div>
+          <div>
+            <input type="radio" value="m" name="sex" id="radio-m"> <label for="radio-m">Male</label>
+          </div>
+          <div>
+            <input type="radio" value="f" name="sex" id="radio-f"> <label for="radio-f">Female</label>
+          </div>
+          <div>
+            <input type="radio" value="o" name="sex" id="radio-o"> <label for="radio-o">Other</label>
+          </div>
+          </select>
+        </div>
+        <div>
+          <label>Job Title <span>(Optional)</span></label>
+          <input type="text" name="job" placeholder="Engineer">
+        </div>
+        <div>
+          <label>Your Story <span>(Minimum 300 letters)</span></label>
+          <div class="hint">How has depression affected you?</div>
+          <textarea name="story" placeholder="Please type your story here." minlength="300" required></textarea>
+        </div>
+        <div>
+          <input type="checkbox" name="tos" required>
+          <label class="tos">I have read and agreed to the <a target="_blank" href="legal.html">terms of service</a>.</label>
+        </div>
+        <div>
+          <button class="button outline" type="button">Submit</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <section id="urgent">
+    <div class="frame">
+      <h1>Feeling overwhelmed? Call or text <a href="https://nycwell.cityofnewyork.us/en/">NYC Well</a> for confidential help.</h1>
+      <p>If you or someone you know is considering suicide, call the National Suicide Prevention Lifeline at <strong>1-800-273-8255</strong> or, in an emergency, <strong>911</strong>.</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="logo">
+      <a href="index.html">depressed.nyc</a>
+    </div>
+    <nav>
+      <ul>
+        <li>&copy; 2020</li>
+        <li><a href="legal.html">Terms of Service</a></li>
+        <li>Inspired by <span class="pink"></span></li>
+      </ul>
+    </nav>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-firestore.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

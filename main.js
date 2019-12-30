@@ -160,8 +160,50 @@ function handleMenu($n) {
 	});
 }
 
+function handleSubmit($s) {
+  const scrollToTop = () => {
+    const c = document.documentElement.scrollTop || document.body.scrollTop;
+    if (c > 0) {
+      window.requestAnimationFrame(scrollToTop);
+      window.scrollTo(0, c - c / 8);
+    }
+  };
+
+  firebase.initializeApp({
+    apiKey: 'AIzaSyCfPJ0LcQ4ljsueOGUuYPocnlgyPhJW60M',
+    projectId: 'depressed-nyc'
+  });
+
+  const db = firebase.firestore();
+  $s.find("button").click(() => {
+    const name = $s.find("[name=name]").val();
+    const email = $s.find("[name=email]").val();
+    const sex = $s.find("[name=sex]:checked").val();
+    const job = $s.find("[name=job]").val();
+    const story = $s.find("[name=story]").val();
+    const tos = !!$s.find("[name=tos]:checked").length;
+    if (!tos) return;
+    if (story.length < parseInt($s.find("[name=story]").attr("minlength"))) return;
+    db.collection("stories").add({
+      name: name || '',
+      email: email || '',
+      sex: sex || '',
+      job: job || '',
+      story: story || ''
+    })
+    .then(function(docRef) {
+      $("[type=text],[type=email],textarea").val("");
+      $("[type=checkbox],[type=radio").prop("checked", false);
+      $s.find("form").addClass("saved");
+      scrollToTop();
+    });
+    return false;
+  });
+}
+
 $(function() {
+  handleMenu($("header nav"));
   $("#city").length && animateCity($("#city").width(), $("#city").height());
   $("#stories").length && handleStories(1, $("#stories"));
-  handleMenu($("header nav"));
+  $("#submit").length && handleSubmit($("#submit"));
 });
