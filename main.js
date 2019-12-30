@@ -153,7 +153,11 @@ function handleStories(p, $s) {
 }
 
 function handleMenu($n) {
-  $n.find(".hamburger").click(() => $n.toggleClass("active"));
+  $n.find(".hamburger").click(() => $n.toggleClass("active") && $("body").toggleClass("modal"));
+	$(window).scroll(function (event) {
+  	const scroll = $(window).scrollTop();
+		$("body").toggleClass("scroll", scroll > 60);
+	});
 }
 
 $(function() {

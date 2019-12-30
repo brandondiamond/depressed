@@ -268,6 +268,21 @@ figcaption {
   color: var(--light-gray-color);
 }
 
+section.informational h1 {
+  margin-bottom: 40px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--dark-tan-color);
+}
+
+section.informational h2 {
+  text-align: left;
+  margin-top: 40px;
+}
+
+section.informational p {
+  text-transform: none;
+}
+
 .frame {
   max-width: 1200px;
   margin: 0 auto;
@@ -284,7 +299,6 @@ figcaption {
   flex: 1;
   min-width: 300px;
   max-width: 450px;
-  margin-bottom: 60px;
 }
 
 .hero .content .text {
@@ -293,6 +307,10 @@ figcaption {
 
 .hero .art {
   text-align: center;
+}
+
+.hero .art.expand {
+  margin: 60px 0;
 }
 
 .hero .art img {
@@ -305,6 +323,7 @@ figcaption {
 }
 
 .hero .art figcaption {
+  margin-top: 20px;
   text-align: center;
 }
 
@@ -622,6 +641,31 @@ header .hamburger {
     padding: 0;
     border: 0;
   }
+
+  body.modal {
+    height: 100vh;
+    overflow-y: hidden;
+  }
+}
+
+@media only screen and (min-width: 801px) {
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 30px 50px;
+    background: transparent;
+    transition: all 250ms;
+    z-index: 100;
+  }
+
+  body.scroll header {
+    background: var(--white-color);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    opacity: 1;
+  }
 }
 
 footer {
@@ -828,4 +872,10 @@ footer .pink {
 
 #about .boxes {
   margin-top: 46px;
+}
+
+#city {
+  margin-bottom: -80px;
+  width: 100%;
+  height: 200px;
 }
