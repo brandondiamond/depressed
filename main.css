@@ -443,6 +443,16 @@ section.informational p {
   border-bottom: 3px solid var(--orange-color);
 }
 
+@media only screen and (max-width: 800px) {
+  .filter p {
+    margin-right: 10px;
+  }
+
+  .filter a {
+    margin-right: 10px;
+  }
+}
+
 .stories {
 }
 
@@ -450,6 +460,7 @@ section.informational p {
   display: none;
   background: var(--light-tan-color);
   margin: 40px 0;
+  flex-wrap: wrap;
 }
 
 .story.visible {
@@ -457,22 +468,26 @@ section.informational p {
 }
 
 .story img {
+  flex: 1;
   object-fit: cover;
-}
-
-.story p {
-  color: var(--dark-gray-color);
-  font-family: 'Chronicle Display';
-  font-size: 16px;
-  line-height: 28px;
-  text-align: justify;
-  color: var(--dark-gray-color);
+  max-width: 100%;
 }
 
 .story .content {
   flex: 1;
   padding: 55px 100px;
   align-self: center;
+}
+
+.story p {
+  vertical-align: middle;
+  color: var(--dark-gray-color);
+  font-family: 'Chronicle Display';
+  font-size: 16px;
+  line-height: 28px;
+  text-align: justify;
+  min-width: 200px;
+  color: var(--dark-gray-color);
 }
 
 .story .date {
@@ -503,6 +518,13 @@ section.informational p {
 
 .story .gender:after {
   content: ' |';
+}
+
+@media only screen and (max-width: 800px) {
+  .story .content {
+    padding: 30px;
+    margin: 0;
+  }
 }
 
 .pager {
@@ -785,7 +807,6 @@ form .hint {
   margin: 5px 0 15px;
 }
 
-form select,
 form textarea,
 form input {
   font-family: 'Work Sans';
@@ -809,6 +830,8 @@ form textarea + input {
 }
 
 @media only screen and (max-width: 800px) {
+  form textarea,
+  form input,
   form textarea {
     width: 95%;
   }
@@ -836,6 +859,17 @@ form input[type=radio] + label,
 form input[type=checkbox] + label {
   display: inline-block;
   font-weight: normal;
+}
+
+@media only screen and (max-width: 800px) {
+  form input[type=checkbox] {
+    position: absolute;
+  }
+
+  form input[type=checkbox] + label {
+    padding-left: 30px;
+    margin-top: -4px;
+  }
 }
 
 textarea:required:invalid,

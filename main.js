@@ -102,11 +102,13 @@ function animateCity(W, H) {
 }
 
 function handleStories(p, $s) {
+  const multi = false;
   const active = {};
   const $fs = $s.find(".filter a");
   const $ps = $s.find(".pager");
   let stories = [];
   let page = 0, pages = 0;
+  let every = false;
   $fs.click(function() {
     const key = $(this).data("key");
     if (key == "everything") {
@@ -114,13 +116,18 @@ function handleStories(p, $s) {
         active[$(this).data("key")] = true;
       });
     } else {
-      active[key] = !active[key];
+      if(!multi || every) {
+        for (k in active) {
+          active[k] = false;
+        }
+      }
+      active[key] = every ? true : !active[key];
     }
     for(let k in active) {
       $fs.filter("[data-key=" + k + "]").toggleClass("active", active[k]);
     }
-    $fs.filter(".everything").toggleClass("active", 
-      Object.values(active).filter((x)=>x).length == $fs.length - 1);
+    every = Object.values(active).filter((x)=>x).length == $fs.length - 1;
+    $fs.filter(".everything").toggleClass("active", every);
     stories = [];
     $(".story").each(function() {
       const $t = $(this);
@@ -204,6 +211,6 @@ function handleSubmit($s) {
 $(function() {
   handleMenu($("header nav"));
   $("#city").length && animateCity($("#city").width(), $("#city").height());
-  $("#stories").length && handleStories(1, $("#stories"));
+  $("#stories").length && handleStories(5, $("#stories"));
   $("#submit").length && handleSubmit($("#submit"));
 });
