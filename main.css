@@ -18,6 +18,7 @@
   --white-color:                      #ffffff;
   --orange-color:                     #f9a01b;
   --beige-color:                      #afa392;
+  --green-color:                      #1ba5b0;
 }
 
 @font-face {
@@ -198,11 +199,31 @@ h2 {
   text-transform: uppercase;
 }
 
+h2 a {
+  padding-left: 10px;
+  font-weight: normal;
+  color: var(--dark-blue-color);
+  text-decoration: none;
+}
+h2 a:after {
+  content: '\2191';
+}
+
 p {
   font-family: 'Work Sans';
   font-size: 14px;
   line-height: 24px;
   color: var(--light-gray-color);
+  text-transform: none;
+}
+
+ul li {
+  list-style-type: square;
+}
+
+li a,
+p a {
+  color: var(--green-color);
 }
 
 sup {
@@ -235,6 +256,7 @@ ol li:before {
   line-height: 24px;
   font-weight: bold;
   margin-right: 10px;
+  min-width: 15px;
   content: counter(item);
   color: var(--pink-color);
   display: inline-block;
@@ -251,6 +273,10 @@ section.primary {
 
 section.secondary {
   background: var(--white-color);
+}
+
+section.tertiary {
+  background: var(--dark-tan-color);
 }
 
 @media only screen and (max-width: 800px) {
@@ -285,6 +311,12 @@ section.informational h2 {
 section.informational p {
 }
 
+section ol li {
+  font-size: 14px;
+  line-height: 30px;
+  font-family: 'Work Sans';
+}
+
 .frame {
   max-width: 1200px;
   margin: 0 auto;
@@ -305,6 +337,18 @@ section.informational p {
 
 .hero .content .text {
   margin: 18px 0 24px;
+}
+
+.hero .actions ol,
+.hero .actions ul {
+  margin-left: 30px;
+}
+
+.hero .actions a:not(.button) {
+  color: var(--green-color);
+  font-family: 'Work Sans';
+  font-size: 14px;
+  line-height: 30px;
 }
 
 .hero .art {
@@ -345,8 +389,19 @@ section.informational p {
   }
 }
 
+.stats {
+  flex: 1 0 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+}
+
 .stat {
   border-radius: 4px;
+  background: var(--dark-tan-color);
+  padding: 50px 50px 60px;
+  flex: 1;
+  margin: 15px;
 }
 
 .stat img {
@@ -616,7 +671,7 @@ header li:last-child {
 
 header .hamburger {
   display: none;
-  transition: all 250ms;
+  transition: all 100ms;
   background: url(img/menu.svg) no-repeat;
   background-size: cover;
   width: 32px;
@@ -631,13 +686,17 @@ header .hamburger {
     padding: 30px 40px 0;
   }
 
+  header .logo {
+    margin-top: 3px;
+  }
+
   header .hamburger {
     display: inline-block;
     z-index: 10;
   }
 
   header ul {
-    transition: transform 500ms ease-in;
+    transition: transform 300ms;
     z-index: 5;
     background: var(--white-color);
     display: block;
@@ -658,16 +717,22 @@ header .hamburger {
   }
 
   header li {
-    font-size: 14px;
-    margin: 0;
+    font-size: 24px;
     display: block;
     text-align: left;
-    margin: 20px;
+    margin: 40px;
   }
 
   header .main {
     padding: 0;
     border: 0;
+    border-bottom: 2px solid var(--orange-color);
+    font-weight: bold;
+  }
+  
+  header ul a {
+    border-bottom: 2px solid var(--orange-color);
+    font-weight: normal;
   }
 
   body.modal {
@@ -872,9 +937,169 @@ form input[type=checkbox] + label {
   }
 }
 
-textarea:required:invalid,
+.info-group {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: -15px;
+}
+
+.info {
+  margin: 15px;
+  flex: 1 0 40%;
+  min-width: 200px;
+}
+
+.info h3 {
+  font-family: 'Work Sans';
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 24px;
+  color: var(--dark-gray-color);
+  margin-top: 0;
+  letter-spacing: 1px;
+}
+
+.info ul {
+
+}
+
+.info li {
+  color: var(--light-gray-color);
+  font-family: 'Work Sans';
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+  text-transform: none;
+}
+
+.info li:not(:first-child) {
+  opacity: 0.7;
+}
+
+.symptoms-group {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+}
+
+.symptoms {
+  flex: 1 0 200px;
+  margin: 15px;
+  border-radius: 4px;
+  background: var(--light-tan-color);
+  padding: 50px;
+}
+
+.symptoms mark {
+  background: transparent;
+}
+
+.symptoms h3 {
+  font-family: 'Chronicle Display';
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.symptoms img {
+  height: 35px;
+  margin-bottom: 10px;
+}
+
+.symptoms:not(:first-child) img {
+  margin-left: -5px;
+}
+
+.symptoms ul {
+  margin-top: 10px;
+  padding-left: 30px;
+}
+
+.symptoms li {
+  color: var(--light-gray-color);
+  font-family: 'Work Sans';
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.treatments {
+
+}
+
+.treatments h3 {
+  font-family: 'Work Sans';
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 24px;
+  letter-spacing: 1px;
+  color: var(--dark-gray-color);
+  margin: 60px 0 30px;
+}
+
+.treatment-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: -15px;
+}
+
+.treatment {
+  flex: 1;
+  max-width: 300px;
+  min-width: 150px;
+  margin: 15px;
+  border-radius: 4px;
+  padding: 50px;
+  background: var(--light-tan-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.treatment .label {
+  font-family: 'Chronicle Display';
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: var(--dark-gray-color);
+}
+
+.treatment .type {
+  font-family: 'Work Sans';
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--beige-color);
+}
+
+.treatment .notes {
+  font-family: 'Work Sans';
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--light-gray-color);
+  text-transform: none;
+  margin: 20px 0 40px;
+}
+
+.treatment .actions {
+  text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .treatment {
+    padding: 30px;
+  }
+}
+
+mark {
+  background: var(--light-blue-color);
+}
+
+
 textarea:focus:invalid,
-input:required:invalid,
 input:focus:invalid {
   border-color: var(--pink-color);
 }
@@ -891,20 +1116,10 @@ input:focus:invalid {
   #overview .hero {
     margin-bottom: 70px;
   }
-}
 
-#overview .stats {
-  flex: 1 0 100%;
-  display: flex;
-  flex-wrap: wrap;
-  margin: -15px;
-}
-
-#overview .stat {
-  background: var(--dark-tan-color);
-  padding: 50px 50px 60px;
-  flex: 1;
-  margin: 15px;
+  #overview .art {
+    padding-top: 20px;
+  }
 }
 
 #overview .stat:first-child {
@@ -1003,6 +1218,10 @@ input:focus:invalid {
   color: var(--dark-blue-color);
 }
 
+#references a:last-child:after {
+  content: '\2191';
+}
+
 #references h1 {
   font-family: inherit;
   font-size: 14px;
@@ -1023,4 +1242,18 @@ input:focus:invalid {
 
 #legal {
   text-transform: none;
+}
+
+#treatment h2,
+#symptoms h2,
+#facts h2 {
+  margin-bottom: 70px;
+}
+
+#symptoms .symptoms-group {
+  margin-top: 70px;
+}
+
+#treatment ol {
+  margin: 30px 0 0 50px;
 }
