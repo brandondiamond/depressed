@@ -19,6 +19,7 @@
   --orange-color:                     #f9a01b;
   --beige-color:                      #afa392;
   --green-color:                      #1ba5b0;
+  --yellow-color:                     #ffffaa;
 }
 
 @font-face {
@@ -277,6 +278,18 @@ section.secondary {
 
 section.tertiary {
   background: var(--dark-tan-color);
+}
+
+section.primary h2 {
+  font-family: 'Work Sans';
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  color: var(--dark-gray-color);
+  margin-top: 0;
+  letter-spacing: 1px;
+  text-transform: lowercase;
+  text-align: left;
 }
 
 @media only screen and (max-width: 800px) {
@@ -953,7 +966,7 @@ form input[type=checkbox] + label {
 .info h3 {
   font-family: 'Work Sans';
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 600;
   line-height: 24px;
   color: var(--dark-gray-color);
   margin-top: 0;
@@ -992,7 +1005,6 @@ form input[type=checkbox] + label {
 }
 
 .symptoms mark {
-  background: transparent;
 }
 
 .symptoms h3 {
@@ -1095,7 +1107,8 @@ form input[type=checkbox] + label {
 }
 
 mark {
-  background: var(--light-blue-color);
+  background: var(--yellow-color);
+  color: var(--dark-gray-color);
 }
 
 
@@ -1256,4 +1269,15 @@ input:focus:invalid {
 
 #treatment ol {
   margin: 30px 0 0 50px;
+}
+
+#action .art img {
+  width: 650px;
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+  #action .art {
+    padding-top: 20px;
+  }
 }

@@ -5,25 +5,61 @@
   <meta charset="utf-8">
   <title>depressed.nyc</title>
   <link rel="stylesheet" type="text/css" href="main.css">
-  <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch:400,700|Open+Sans:300,400i,700&display=swap" rel="stylesheet">
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script src="main.js"></script>
 </head>
 
-<body>
+<body id="page-top">
+  <header>
+    <div class="logo">
+      <a href="index.html">depressed<em>.</em>nyc</a>
+    </div>
+    <nav>
+      <span class="hamburger"></span> 
+      <ul>
+        <li><a href="stories.html">Stories</a></li>
+        <li><a href="facts.html">Facts</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a class="main" href="action.html">Take Action</a></li>
+      </ul>
+    </nav>
+  </header>
 
-<div class="menu">
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="stories.html">Stories</a></li>
-    <li><a href="facts.html">Facts</a></li>
-    <li><a class="main current" href="action.html">Take Action</a></li>
-  </ul>
-</div>
+  <section id="action" class="primary">
+    <div class="frame">
+      <div class="hero">
+        <div class="content">
+          <h1>Fight stigma, fight depression.</h1>
+          <div class="text">
+            <p><strong>Stigma destroys hope and self-esteem</strong>, making symptoms worse and treatment harder.<sup><a href="#s1">1</a></sup></p>
+          </div>
+          <h2>Take action:</h2>
+          <div class="actions">
+            <ol>
+              <li><a href="#visible">Become visible &rarr;</a></li>
+              <li><a href="#share">Spread the word &rarr;</a></li>
+              <li><a href="#meet">Meet in person &rarr;</a></li>
+              <li><a href="#story">Tell your story &rarr;</a></li>
+              <li><a href="#join">Volunteer &rarr;</a></li>
+            </ol>
+          </div>
+        </div>
 
-<div class="splash">
-  <h1 class="box invert">NYC is <em>depressed</em>.</h1>
-</div>
+        <div class="art">
+          <figure>
+            <img src="img/bracelet.svg">
+          </figure>
+          <figcaption>
+            Wear a <strong>black bracelet</strong> to show your support.
+          </figcaption>
+        </div>
+      </div>
+     </div>
+  </section>
+  
+  <section id="facts" class="secondary">
+    <div class="frame">
+      <h2>Get the facts<a href="#page-top"></a></h2>
+    </div>
+  </section>
 
 <div class="narrow secondary">
   <div id="nav" class="filter nav">
@@ -98,21 +134,35 @@
     </div>
   </div>
 
-  <hr class="weak" />
+  <section id="urgent">
+    <div class="frame">
+      <h1>Feeling overwhelmed? Call or text <a href="https://nycwell.cityofnewyork.us/en/">NYC Well</a> for confidential help.</h1>
+      <p>If you or someone you know is considering suicide, call the National Suicide Prevention Lifeline at <strong>1-800-273-8255</strong> or, in an emergency, <strong>911</strong>.</p>
+    </div>
+  </section>
 
-  <div class="urgent">
-    <p>Feeling overwhelmed? Call or text <a href="https://nycwell.cityofnewyork.us/en/">NYC Well</a> for confidential help.</p>
-    <p>If you or someone you know is considering suicide, call the National Suicide Prevention Lifeline at <strong>1-800-273-8255</strong> or, in an emergency, <strong>911</strong>.</p>
-  </div>
-  <hr />
-
-  <div class="references">
-    <h4>References</h4>
-    <ol>
-      <li id="s1"><a href="https://www1.nyc.gov/assets/home/downloads/pdf/press-releases/2015/thriveNYC_white_paper.pdf">"Understanding New York City's Mental Health Challenge".</a> The City of New York, Office of the Mayor, 2015. <a href="#facts">&#9650;</a></li>
-    </ol>
-  </div>
-</div>
-
+  <section id="references">
+      <div class="frame">
+        <h1>References</h1>
+        <ol>
+          <li id="s1">Rao, T S Sathyanarayana, et al. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2738337/">"Understanding nutrition, depression and mental illnesses."</a> Indian journal of psychiatry vol. 50,2 (2008): 77-82. doi:10.4103/0019-5545.42391 <a href="#action"></a></li>
+        </ol>
+      </div>
+  </section>
+  
+  <footer>
+    <div class="logo">
+      <a href="index.html">depressed.nyc</a>
+    </div>
+    <nav>
+      <ul>
+        <li>&copy; 2020</li>
+        <li><a href="legal.html">Terms of Service</a></li>
+        <li>Inspired by <span class="pink"></span></li>
+      </ul>
+    </nav>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
 </body>
 </html>
