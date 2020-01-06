@@ -269,6 +269,7 @@ ol li:before {
 
 section {
   padding: 80px 115px;
+  overflow: hidden;
 }
 
 section.primary {
@@ -313,11 +314,6 @@ figcaption {
   line-height: 24px;
   color: var(--light-gray-color);
   text-transform: var(--text-transform);
-  background: var(--dark-tan-color);
-  width: 60%;
-  border-radius: 4px;
-  padding: 10px;
-  margin: 0 auto;
 }
 
 section.informational h1 {
@@ -457,6 +453,7 @@ section ol li {
   margin: 15px;
   padding: 48px;
   flex: 1;
+  border-radius: 4px;
 }
 
 .box p {
@@ -464,7 +461,12 @@ section ol li {
   font-size: 26px;
   line-height: 36px;
   margin: 20px 0 45px;
-  border-radius: 4px;
+}
+
+@media only screen and (max-width: 800px) {
+  .box {
+    padding: 32px;
+  }
 }
 
 .flow {
@@ -486,8 +488,14 @@ section ol li {
 .flow hr {
   background: var(--dark-tan-color);
   height: 1px;
-  width: 400px;
   margin: 40px auto 20px;
+  width: 40%;
+}
+
+@media only screen and (max-width: 800px) {
+  .flow hr {
+    width: 90%;
+  }
 }
 
 .flow .button {
@@ -633,9 +641,22 @@ section ol li {
 /* Sections. */
 
 header {
-  padding: 30px 50px 0;
-  background: var(--light-tan-color);
   display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 30px 50px 60px;
+  background: transparent;
+  transition: all 250ms;
+  z-index: 100;
+}
+
+body.scroll header {
+  background: var(--white-color);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  opacity: 1;
 }
 
 header a {
@@ -706,7 +727,7 @@ header .hamburger {
 
 @media only screen and (max-width: 800px) {
   header {
-    padding: 30px 40px 0;
+    padding: 30px 40px 60px;
   }
 
   header .logo {
@@ -761,26 +782,6 @@ header .hamburger {
   body.modal {
     height: 100vh;
     overflow-y: hidden;
-  }
-}
-
-@media only screen and (min-width: 801px) {
-  header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    padding: 30px 50px 60px;
-    background: transparent;
-    transition: all 250ms;
-    z-index: 100;
-  }
-
-  body.scroll header {
-    background: var(--white-color);
-    padding-top: 15px;
-    padding-bottom: 15px;
-    opacity: 1;
   }
 }
 
@@ -1124,6 +1125,17 @@ form input[type=checkbox] + label {
 }
 
 .steps {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
+.steps h2:first-child {
+  margin-top: 0;
+}
+
+.steps h2 {
+  margin: 80px 0;
 }
 
 .step {
@@ -1131,7 +1143,9 @@ form input[type=checkbox] + label {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  margin: 0 -25px 100px;
+  padding: 48px;
+  border-radius: 4px;
+  background: var(--light-tan-color);
 }
 
 .step:last-child {
@@ -1140,22 +1154,21 @@ form input[type=checkbox] + label {
 
 .step figure {
   flex: 1 0 40%;
+  margin: 15px;
   text-align: center;
-  margin: 0 25px;
 }
 
 .step figure img {
   max-width: 100%;
-  height: 300px;
+  min-height: 300px;
 }
 
 .step .content {
   flex: 1 0 40%;
-  margin: 0 25px;
+  margin: 15px;
 }
 
 .step h3 strong {
-  color: var(--pink-color);
 }
 
 .step h3 {
@@ -1176,7 +1189,7 @@ form input[type=checkbox] + label {
   font-size: 26px;
   line-height: 36px;
   letter-spacing: 0;
-  color: var(--dark-gray-color);
+  color: var(--light-gray-color);
   margin: 0;
 }
 
@@ -1185,27 +1198,55 @@ form input[type=checkbox] + label {
   font-family: 'Work Sans';
   font-size: 14px;
   line-height: 24px;
-  color: var(--light-gray-color);
+  color: var(--beige-color);
   text-transform: var(--text-transform);
-  margin-top: 24px;
+  margin: 32px 0;
 }
 
 .step .actions {
+  white-space: nowrap;
 }
 
 .step .actions a { 
-  margin-top: 24px;
+  margin-top: 32px;
   margin-right: 10px;
 }
 
 @media only screen and (max-width: 800px) {
+  .step {
+    text-align: center;
+    padding: 32px;
+  }
+
+  .step p {
+    margin: 32px 0;
+  }
+
+  .step .actions {
+    white-space: normal;
+    margin: 0;
+  }
+
+  .step .actions a {
+    margin: 0;
+    text-align: center;
+  }
+
+  .step .actions a:not(:first-child) {
+    margin-top: 10px;
+  }
+
+  .step .content {
+    margin: 0;
+  }
+
   .step figure {
-    margin-bottom: 30px;
     min-width: none;
   }
 
-  .step img {
+  .step figure img {
     width: 100%;
+    min-height: auto;
   }
 }
 
@@ -1357,7 +1398,7 @@ input:focus:invalid {
 }
 
 #about .boxes {
-  margin-top: 46px;
+  margin-top: 65px;
 }
 
 #legal {
@@ -1378,6 +1419,14 @@ input:focus:invalid {
   margin: 30px 0 0 0;
 }
 
+#action figcaption {
+  background: var(--dark-tan-color);
+  width: 60%;
+  border-radius: 4px;
+  padding: 10px;
+  margin: 20px auto;
+}
+
 #action .hero .content {
   margin-top: 70px;
   width: 150px;
@@ -1388,9 +1437,42 @@ input:focus:invalid {
   max-width: 100%;
 }
 
+#action h2 {
+  margin-top: 50px;
+}
+
+#action {
+  background: var(--light-tan-color) url(img/bracelet-zoom.svg) 100% 100% no-repeat;
+  background-size: contain;
+}
+
+#action .art {
+  visibility: hidden;
+}
+
 @media only screen and (max-width: 800px) {
+  #action {
+    background: var(--light-tan-color);
+    padding-bottom: 0;
+  }
+
   #action .art {
-    padding-top: 20px;
+    visibility: visible;
+  }
+
+  #action .art img {
+    object-fit: cover;
+  }
+
+  #action .art figure {
+    margin: 0 -200px;
+  }
+
+  #action figcaption {
+    display: none;
+    width: auto;
+    background: transparent;
+    margin-bottom: 0;
   }
 }
 
