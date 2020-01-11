@@ -12,7 +12,7 @@
   --alternate-light-gray-color:       #c1c1c1;
   --light-blue-color:                 #ebf3f5;
   --dark-blue-color:                  #99cfdb;
-  --light-green-color:                #ddeedd;;
+  --light-green-color:                #ddeedd;
   --red-color:                        #d93c5e;
   --pink-color:                       #fa466c;
   --white-color:                      #ffffff;
@@ -20,7 +20,7 @@
   --beige-color:                      #afa392;
   --green-color:                      #1ba5b0;
   --yellow-color:                     #ffffaa;
-
+  --black-color:                      #000000;
   --text-transform:                   lowercase;
 }
 
@@ -809,6 +809,29 @@ footer .logo a {
   text-decoration: none;
 }
 
+footer .social {
+  margin-top: 45px;
+}
+
+footer .social a {
+  display: inline-block;
+  margin: 0 8px;
+  border: 1px solid var(--light-gray-color);
+  border-radius: 100px;
+  padding: 10px;
+  text-align: center;
+}
+
+footer .social a:hover {
+  background: var(--white-color);
+}
+
+footer .social img {
+  width: 24px;
+  height: 24px;
+  margin: 0 -1px -4px 0;
+}
+
 footer nav {
 }
 
@@ -1454,6 +1477,10 @@ input:focus:invalid {
   #action {
     background: var(--light-tan-color);
     padding-bottom: 0;
+  }
+
+  #action .hero .content {
+    margin-top: 0;
   }
 
   #action .art {
