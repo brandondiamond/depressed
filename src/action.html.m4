@@ -88,7 +88,7 @@ include(`src/_header.html')
         <div id="join-step" class="step">
           <figure><img src="img/friends-nobg-noface.svg"></figure>
           <div class="content">
-            <p>Help us build a grassroots movement to fight depression.</p>
+            <p>Help us build a grassroots movement to fight mental health stigma.</p>
             <div class="actions">
               <a class="button" href="about.html">Learn more</a>
             </div>
