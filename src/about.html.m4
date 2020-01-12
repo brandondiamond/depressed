@@ -8,6 +8,7 @@ include(`src/_header.html')
           <div class="text">
             <p><strong>We are survivors and allies</strong> committed to ending mental health stigma in NYC.</p>
           </div>
+          <a class="button outline" href="mailto:contact@depressed.nyc">contact us</a>
         </div>
 
         <div class="art expand">
