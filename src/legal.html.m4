@@ -1,0 +1,47 @@
+include(`src/_header.html')
+
+  <section id="legal" class="primary informational">
+    <div class="frame">
+      <h1>Terms of Service</h1>
+      <p>
+        The Depressed NYC Web site is a complimentary information service provided by Depressed NYC as a convenience to users, with the express condition that users agree to be bound by the terms and conditions of this User Agreement. Depressed NYC reserves the right to change the User Agreement terms and conditions at any time. Use of the Depressed NYC Web site constitutes your acceptance of the terms and conditions included below.
+      </p>
+
+			<h2>Limitation of Liability</h2>
+			<p>You agree that you will hold harmless Depressed NYC and its officers, directors, employees and volunteers from all claims arising out of or related to your access or use of, or your inability to access or use, this Web site or the information contained in this Web site or other Web sites to which it is linked. You also agree that Depressed NYC or the contributors of information to this Web site shall NOT be liable to you or anyone else for any decision made or action taken by you in reliance on information provided on the Depressed NYC Web site or for any consequential, special or similar damages, even if advised of the possibility of such damages.</p>
+
+			<h2>Disclaimer on Professional Advice</h2>
+			<p>The information available on and through the depressed.nyc Web site is presented in summary form as a supplement to, and NOT a substitute for, the knowledge, skill and judgment of qualified psychiatrists, psychologists, physicians and health care professionals. The information on depressed.nyc has been obtained from sources believed to be accurate and reliable. However, Depressed NYC makes no warranty as to the accuracy, reliability or completeness of this information. Should you have any health, medical or disability questions or concerns, please consult a physician or other health care professional. Information accessed on or through depressed.nyc is neither complete nor exhaustive and does not cover all disabilities, diseases, illnesses and physical conditions or their management or treatment.</p>
+			<p>Information accessed on and through depressed.nyc is provided "AS IS" and without warranty, express or implied, including, but not limited to, any implied warranty of merchantability or of fitness for a particular purpose. The information provided on the Depressed NYC Web site is provided for general information only.</p>
+
+			<h2>Disclaimer of Warranty</h2>
+			<p>Depressed NYC makes no warranties of any kind concerning this Web site, including but not limited to any warranty of accuracy, completeness, currency, reliability, merchantability or fitness for a particular purpose, or any warranty that these pages, or the server that makes them available, are free of viruses or other harmful elements, and such warranties are expressly disclaimed.</p>
+
+			<h2>Usage of Content</h2>
+			<p>Unless otherwise indicated, all information contained on the Depressed NYC Web site, including - but not limited to - text, graphics, logos, button icons, images, audio and video clips, is proprietary to Depressed NYC.</p>
+
+			<p>Depressed NYC grants requested reprint permissions subject to your agreement to these conditions</p>
+
+			<p>In the reprint, you will credit Depressed NYC as the source, linking to this Web site (as "depressed.nyc"). You are not reselling the product at a profit. And you will send a copy of the result to this electronic address: legal@depressed.nyc</p>
+
+			<p>For any information contained on the Depressed NYC site that is attributed to another source, permission to reproduce must be obtained from the original source.</p>
+
+			<p>Stock photos used on this website are not meant to indicate any particular attitude or opinion on the part of those whose images are being used and are not intended to indicate an endorsement by the subjects.</p>
+
+			<p><strong>Trademarks</strong></p>
+
+			<p>The following are service marks of Depressed NYC pending registration: Depressed NYC, depressed.nyc, Visibility Night.</p>
+
+			<h2>Jurisdiction</h2>
+			<p>This Web site (excluding linked sites) is controlled by Depressed NYC, which is headquartered in the State of New York, in the United States of America. It can be accessed from all 50 states, as well as from other locations around the world. Each of these locations have laws that may differ from those of New York. Therefore, by accessing this Web site both you and Depressed NYC agree that the statutes and laws of the State of New York, without regard to principles of conflicts of law in New York or elsewhere, shall apply to all matters arising from or relating to use of this Web site. You and Depressed NYC also agree and hereby submit to the exclusive personal jurisdiction and venue of the state and/or federal courts located closest in proximity to the Depressed NYC effective headquarters in Manhattan, New York should any matter arise related to Depressed NYC.</p>
+
+			<h2>User Content Submissions</h2>
+			<p>Depressed NYC encourages you and other users to contribute content to this website including, without limitation, videos and textual narratives that share your stories of hope for people with mental illness and associated comments thereto ("User Content"). When you view User Content and comments submitted by other users, keep in mind that such User Content may not necessarily represent your own view or the view of Depressed NYC. While Depressed NYC encourages User Content that is supportive and helpful, through your use of the Services, you may be exposed to User Content that you may find offensive, objectionable, harmful, inaccurate or deceptive. You assume all associated risks.</p>
+
+			<h2>User Content</h2>
+			<p>You understand that when you submit User Content, you are granting Depressed NYC a license to display the User Content in connection with the Services or otherwise as set forth in these Terms, and, whether or not your User Content is published on the website, Depressed NYC guarantees no confidentiality or anonymity with respect to your User Content. While you don't have to include your name, your likeness, or any other specific information in the User Content you submit, if your video or other User Content conveys your name, your likeness, (or other identifying information in the background of your video) you understand and agree that this information may be displayed on the Depressed NYC website along with your User Content. Accordingly, please review your User Content carefully prior to submission to ensure it contains no information that you are not comfortable sharing. If your User Content is a video, you can disable access to that User Content by deleting it from your YouTube account. If you your User Content is a textual narrative or other form of User Content, you can disable access to that User Content by contacting Depressed NYC via email at brandon.t.diamond@gmail.com with a written request to disable access to your User Content, including sufficient details in your request for Depressed NYC to identify and disable such User Content. You retain all ownership rights in the User Content you submit. However, by submitting your User Content to the Depressed NYC website, you grant Depressed NYC a worldwide, perpetual, irrevocable non-exclusive, royalty-free, sub-licensable through multiple tiers, and transferable license to use, reproduce, distribute, prepare derivative works of, display, perform, commercialize, and otherwise exercise all rights in and to the User Content in any media formats and through any media channels now known or hereinafter invented or discovered for any purpose consistent with the mission and vision of Depressed NYC. Such license includes all rights and permissions to reproduce your likeness, name and any other personal information that you choose to submit as a part of the User Content. You also grant each user of the Services a non-exclusive license to access your User Content through the Service, and to use, reproduce, distribute, display, link to and perform such User Content as permitted through the functionality of the Services and under these Terms of Use. Depressed NYC reserves the right to monitor User Content and to remove or decline to post any User Content at any time, for any reason (or for no reason), without notice and at its sole discretion, including, without limitation, if it determines that User Content is inappropriate or fails to comply with these Terms. Depressed NYC has no responsibility for the backup of any of any User Content or any lost data resulting from the use, operation or discontinuation of any aspect of the Services.</p>
+    </div>
+  </section>
+
+include(`src/_urgent.html')
+include(`src/_footer.html')

@@ -1,0 +1,11 @@
+#!/bin/bash
+
+if ! test -d dist; then
+  echo "Build must be invoked from project root..."
+  exit 1
+fi
+
+for tmpl in src/*.m4; do
+  echo "Building $tmpl"
+  m4 "$tmpl" > "dist/$(basename $tmpl .html.m4).html"
+done

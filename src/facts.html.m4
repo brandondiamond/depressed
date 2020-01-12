@@ -1,0 +1,354 @@
+include(`src/_header.html')
+
+  <section class="primary">
+    <div class="frame">
+      <div class="hero">
+        <div class="content">
+          <h1>Depression is a medical condition.</h1>
+          <div class="text">
+            <p><strong>10% of New Yorkers</strong> live with depression&mdash; <strong>most</strong> don't seek help because of the stigma.</p>
+          </div>
+          <div class="actions">
+            <hr />
+            <ol>
+              <li><a href="#facts">Get the facts &rarr;</a></li>
+              <li><a href="#symptoms">Learn the symptoms &rarr;</a></li>
+              <li><a href="#treatment">Learn about treatment &rarr;</a></li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="art">
+          <figure>
+            <img src="img/bolt.svg">
+          </figure>
+        </div>
+      </div>
+     </div>
+  </section>
+  
+  <section id="facts" class="secondary">
+    <div class="frame">
+      <h2>Get the facts<a href="#page-top"></a></h2>
+      <div class="info-group">
+        <div class="info">
+          <h3>Depression is a medical condition</h3>
+          <ul>
+            <li>Depression alters thoughts and feelings.<sup><a href="#s1">1</a></li>
+            <li>Depressed brains often have <mark>structural changes.</mark><sup><a href="#s2">2</a></sup></li>
+            <li>Many struggle to feel anything but numbness.<sup><a href="#s1">1</a></sup></li>
+            <li><mark>Neuroanatomy<sup><a href="#s1">1</a></sup> and genetics<sup><a href="#s6">6</a></sup></mark> play a significant role.</li>
+          </ul>
+        </div>
+
+        <div class="info">
+          <h3>Depression impacts NYC</h3>
+          <ul>
+            <li>Depression is the greatest source of disability in NYC.<sup><a href="#s3">3</a></sup></li>
+            <li><mark>8% of men</mark> and <mark>10% of women</mark> are depressed.<sup><a href="#s3">3</a></sup></li>
+            <li>Depression contributes to $14 billion in annual losses.<sup><a href="#s4">4</a></sup></li>
+            <li>About <mark>1 in 5 new yorkers</mark> will experience mental illness.<sup><a href="#s4">4</a></sup></li>
+          </ul>
+        </div>
+
+        <div class="info">
+          <h3>Depression can affect anyone</h3>
+          <ul>
+            <li>Anyone can be depressed, even "successful" people.</li>
+            <li>Women are <mark>twice as likely</mark> to be depressed in the U.S.<sup><a href="#s3">3</a></sup></li>
+            <li>Some jobs increase the risk (e.g., real estate, law, transit).<sup><a href="#s5">5</a></sup></li>
+            <li>Underserved communities are <mark>2-3x more vulnerable.</mark><sup><a href="#s3">3</a></sup></li>
+          </ul>
+        </div>
+
+        <div class="info">
+          <h3>Depression is treatable</h3>
+          <ul>
+            <li>80% of people improve after 4-6 weeks of treatment.<sup><a href="#s7">7</a></sup></li>
+            <li>&hellip; But <mark>two thirds of New Yorkers</mark> don't get help.<sup><a href="#s3">3</a></sup></li>
+            <li>Younger New Yorkers are nearly half as likely to get help.<sup><a href="#s3">3</a></sup></li>
+            <li><mark>13% of Americans</mark> take antidepressants.<sup><a href="#s27">27</a></sup></li>
+          </ul>
+        </div>
+
+        <div class="info">
+          <h3>Stigma blocks treatment</h3>
+          <ul>
+            <li>Stigma destroys hope and self-esteem.<sup><a href="#s9">9</a></sup></li>
+            <li>Misconceptions lead to embarassment and isolation.</li>
+            <li><mark>Isolation makes symptoms worse.</mark><sup><a href="#s10">10</a></sup></li>
+            <li>Stigma may be <mark>internalized</mark>, making it harder to seek help.<sup><a href="#s11">11</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="symptoms" class="tertiary">
+    <div class="frame">
+      <h2>Learn the symptoms<a href="#page-top"></a></h2>
+      <p><strong>Depression is more than sadness.</strong> If you've experienced any of the following symptoms for two weeks or more, you should talk to your doctor.</p>
+
+      <div class="symptoms-group">
+        <div class="symptoms">
+          <img src="img/sad.svg" />
+          <h3>Emotional</h3>
+          <ul>
+            <li>Feeling numb, empty, or sad.</li>
+            <li>Feeling guilty or worthless.</li>
+            <li>Feeling hopeless or pessimistic.</li>
+            <li>Feeling anxious or angry.</li>
+          </ul>
+        </div>
+
+        <div class="symptoms">
+          <img src="img/physical.svg" />
+          <h3>Physical</h3>
+          <ul>
+            <li>Lasting fatigue or low energy.</li>
+            <li>Problems with sleep.</li>
+            <li>Changes in weight or appetite.</li>
+            <li>Trouble remembering or focusing.</li>
+          </ul>
+        </div>
+
+        <div class="symptoms">
+          <img src="img/lifestyle.svg" />
+          <h3>Lifestyle</h3>
+          <ul>
+            <li>Isolating yourself.</li>
+            <li>Losing interest in hobbies.</li>
+            <li>Avoiding friends and family.</li>
+            <li>Difficulty making decisions.</li>
+          </ul>
+        </div>
+
+        <div class="symptoms">
+          <img src="img/urgent.svg" />
+          <h3>Urgent</h3>
+          <ul>
+            <li>Thoughts of death or suicide.</li>
+            <li>Thoughts of self-harm.</li>
+            <li>Physical pain.</li>
+            <li><a href="https://nycwell.cityofnewyork.us/en/">Get confidential help</a>.</li>
+          </ul>
+        </div>
+
+        <div class="symptoms note">
+          <img src="img/men-women.svg" />
+          <h3>Sex differences<sup><a href="#s1">1</a></sup></h3>
+          <ul>
+            <li><strong>Women</strong> tend to feel sad, worthless, or guilty.</li>
+            <li><strong>Men</strong> tend to feel tired, irritable, or to lose interest.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="treatment">
+    <div class="frame">
+      <h2>Learn about treatment<a href="#page-top"></a></h2>
+      <p>There are <strong>many options</strong> for treating depression. In fact, 80% of people see improvement from treatment in the first few weeks.<sup><a href="#s7">7</a></sup></p>
+      <ol>
+        <li><a href="#treatment-1">First steps</a></li>
+        <li><a href="#treatment-2">Next steps</a></li>
+        <li><a href="#treatment-3">Lifestyle changes</a></li>
+        <li><a href="#treatment-4">Medications</a></li>
+        <li><a href="#treatment-5">More options</a></li>
+        <li><a href="#treatment-6">New research</a></li>
+      </ol>
+      <div class="treatments">
+        <h3 id="treatment-1">First steps</h3>
+        <div class="treatment-group">
+          <div class="treatment">
+            <div class="type">Lifestyle</div>
+            <div class="label">Tell someone</div>
+            <div class="notes">Reaching out can be hard, but it's a big help when you're depressed. It may even reduce symptoms.<sup><a href="#s28">28</a></sup></div>
+            <div class="actions"><a class="button outline" target="_blank" href="https://www.everydayhealth.com/hs/major-depression-resource-center/how-when-to-talk-about-depression/">Learn more</a></div>
+          </div>
+
+          <div class="treatment">
+            <div class="type">Exam</div>
+            <div class="label">Get medical care</div>
+            <div class="notes">A psychiatrist, psychologist, or primary care doctor can help you put together an effective treatment plan.</div>
+            <div class="actions"><a class="button outline" target="_blank" href="https://www.verywellmind.com/which-doctor-is-best-for-treating-depression-1065269">Learn more</a></div>
+          </div>
+          
+          <div class="treatment">
+            <div class="type">Resource</div>
+            <div class="label">NYC well</div>
+            <div class="notes">NYC offers a free, confidential service that can help you take the first steps&mdash; by phone, text, or chat.</div>
+            <div class="actions"><a class="button outline" target="_blank" href="https://nycwell.cityofnewyork.us/en/">Learn more</a></div>
+          </div>
+        </div>
+
+        <h3 id="treatment-2">Next steps</h3>
+        <div class="treatment-group">
+          <div class="treatment">
+            <div class="type">Therapy</div>
+            <div class="label">Cognitive behavioral therapy (CBT)</div>
+            <div class="notes">CBT is an effective<sup><a href="#s12">12</a></sup> type of talk therapy that helps you change your thought process.</div>
+            <div class="actions"><a class="button outline" target="_blank" href="https://www.healthline.com/health/depression/cognitive-behavioral-therapy">Learn more</a></div>
+          </div>
+
+          <div class="treatment">
+            <div class="type">Therapy</div>
+            <div class="label">Talk therapy</div>
+            <div class="notes">There are many types of talk therapy that help with depression. Both one-on-one and group-based sessions are effective.</div>
+            <div class="actions"><a class="button outline" target="_blank" href="https://www.webmd.com/depression/guide/treatment-resistant-depression-psychotherapy">Learn more</a></div>
+          </div>
+
+          <div class="treatment">
+            <div class="type">Exam</div>
+            <div class="label">Physical exam</div>
+            <div class="notes">Depression can be caused by diet<sup><a href="#s13">13</a></sup>, hormones<sup><a href="#s14">14</a></sup>, or other medical conditions. It's a good idea to rule these out first.</div>
+            <div class="actions"><a class="button outline" target="_blank" href="https://www.verywellmind.com/how-do-i-tell-a-doctor-im-depressed-1067387">Learn more</a></div>
+          </div>
+        </div>
+
+        <h3 id="treatment-3">Lifestyle changes</h3>
+        <div class="treatment-group">
+          <div class="treatment">
+            <div class="type">Lifestyle</div>
+            <div class="label">Eat healthy</div>
+            <div class="notes">Issues with your diet can lead to depression.<sup><a href="#s13">13</a></sup> Your doctor can rule out any deficiencies.</div>
+            <div class="actions"><a class="button outline" target="_blank" href="https://www.health.harvard.edu/blog/diet-and-depression-2018022213309">Learn more</a></div>
+          </div>
+
+          <div class="treatment">
+            <div class="type">Lifestyle</div>
+            <div class="label">Get exercise</div>
+            <div class="notes">Aerobic exercise like taking a walk or spending time at the gym can reduce the symptoms of depression.<sup><a href="#s15">15</a></sup></div>
+            <div class="actions"><a class="button outline" target="_blank" href="https://www.health.harvard.edu/mind-and-mood/exercise-is-an-all-natural-treatment-to-fight-depression">Learn more</a></div>
+          </div>
+
+          <div class="treatment">
+            <div class="type">Lifestyle</div>
+            <div class="label">Mindfulness</div>
+            <div class="notes">Mindfulness is a way of thinking that can help your brain adapt<sup><a href="#s16">16</a></sup>, reducing the risk of relapse by half.<sup><a href="#s17">17</a></sup></div>
+            <div class="actions"><a class="button outline" target="_blank" href="https://psychcentral.com/blog/how-does-mindfulness-reduce-depression-an-interview-with-john-teasdale-ph-d/">Learn more</a></div>
+          </div>
+        </div>
+
+        <h3 id="treatment-4">Medications</h3>
+        <div class="treatment-group">
+          <div class="treatment">
+            <div class="type">Medication</div>
+            <div class="label">Antidepressants</div>
+            <div class="notes">The right antidepressant can make a big difference.<sup><a href="#s18">18</a></sup> Your doctor can help you choose the best medicine and dosage for your symptoms.</div>
+            <div class="actions"><a class="button outline" target="_blank" href="https://www.healthline.com/health/depression/medication-list">Learn more</a></div>
+          </div>
+
+          <div class="treatment">
+            <div class="type">Exam</div>
+            <div class="label">Genetic testing</div>
+            <div class="notes">Testing can improve treatment by identifying the medications that are most likely to work for you.<sup><a href="#s19">19</a></sup></div>
+            <div class="actions"><a class="button outline" target="_blank" href="https://www.health.harvard.edu/blog/gene-testing-to-guide-antidepressant-treatment-has-its-time-arrived-2019100917964">Learn more</a></div>
+          </div>
+
+          <div class="treatment">
+            <div class="type">Medication</div>
+            <div class="label">Ketamine</div>
+            <div class="notes">Ketamine is an effective<sup><a href="#s20">20</a></sup> option for treatment-resistent depression that can work quickly.</div>
+            <div class="actions"><a class="button outline" target="_blank" href="https://www.health.harvard.edu/blog/ketamine-for-major-depression-new-tool-new-questions-2019052216673">Learn more</a></div>
+          </div>
+        </div>
+
+        <h3 id="treatment-5">More options</h3>
+        <div class="treatment-group">
+          <div class="treatment">
+            <div class="type">Procedure</div>
+            <div class="label">Transcranial magnetic stimulation (TMS)</div>
+            <div class="notes">A simple, in-office treatment that provides 50-60%<sup><a href="#s21">21</a></sup> of patients with relief.</div>
+            <div class="actions"><a class="button outline" target="_blank" href="https://www.mayoclinic.org/tests-procedures/transcranial-magnetic-stimulation/about/pac-20384625">Learn more</a></div>
+          </div>
+
+          <div class="treatment">
+            <div class="type">Procedure</div>
+            <div class="label">Electroconvulsive therapy (ECT)</div>
+            <div class="notes">ECT is a highly effective,<sup><a href="#s22">22</a></sup> in-patient option for severe, treatment-resistent depression.</div>
+            <div class="actions"><a class="button outline" target="_blank" href="https://www.mayoclinic.org/tests-procedures/electroconvulsive-therapy/about/pac-20393894">Learn more</a></div>
+          </div>
+
+          <div class="treatment">
+            <div class="type">Procedure</div>
+            <div class="label">Electrostimulation therapy</div>
+            <div class="notes">Vagus nerve stimulation (VNS) and deep brain stimulation (DBS) can help treat certain types of depression.</div>
+            <div class="actions"><a class="button outline" target="_blank" href="https://www.mayoclinic.org/tests-procedures/vagus-nerve-stimulation/about/pac-20384565">Learn more</a></div>
+          </div>
+        </div>
+
+        <h3 id="treatment-6">New research</h3>
+        <div class="treatment-group">
+          <div class="treatment">
+            <div class="type">Medication</div>
+            <div class="label">Psilocybin</div>
+            <div class="notes">The FDA recently granted psylocibin "breakthrough therapy" status after a successful feasibility study.<sup><a href="#s23">23</a></sup></div>
+            <div class="actions"><a class="button outline" target="_blank" href="https://www.medscape.com/viewarticle/921789">Learn more</a></div>
+          </div>
+
+          <div class="treatment">
+            <div class="type">Medication</div>
+            <div class="label">Microdosing</div>
+            <div class="notes">Initial research shows that small (i.e., non-hallucinatory) doses of psychedelics may help relieve depression.<sup><a href="#s24">24</a></sup></div>
+            <div class="actions"><a class="button outline" target="_blank" href="https://www.theatlantic.com/health/archive/2019/03/psychedelic-microdosing-depression-anxiety/584119/">Learn more</a></div>
+          </div>
+
+          <div class="treatment">
+            <div class="type">Medication</div>
+            <div class="label">Anti-inflammatory medicine</div>
+            <div class="notes">Several studies have identified a link between depression and inflammation.<sup><a href="#s25">25</a></sup></div>
+            <div class="actions"><a class="button outline" target="_blank" href="https://www.sciencedaily.com/releases/2019/10/191028213923.htm">Learn more</a></div>
+          </div>
+
+          <div class="treatment">
+            <div class="type">Procedure</div>
+            <div class="label">Fecal microbiota transplant (FMT)</div>
+            <div class="notes">An early study found that following FMT, 30% of patients reported a mental health improvement.<sup><a href="#s26">26</a></sup></div>
+            <div class="actions"><a class="button outline" target="_blank" href="https://www.nature.com/articles/d41586-019-00483-5">Learn more</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+include(`src/_urgent.html')
+
+  <section id="references">
+      <div class="frame">
+        <h1>References</h1>
+        <ol>
+          <li id="s1"><a href="https://www.nimh.nih.gov/health/publications/depression-what-you-need-to-know/index.shtml">"Depression: What You Need To Know."</a> National Institute of Mental Health, U.S. Department of Health and Human Services.&nbsp;<a href="#facts"></a></li>
+          <li id="s2">Shen, Xueyi, et al. <a href="https://www.nature.com/articles/s41598-017-05507-6">"Subcortical Volume and White Matter Integrity Abnormalities in Major Depressive Disorder: Findings from UK Biobank Imaging Data."</a> Scientific Reports, vol. 7, no. 1, 2017, doi:10.1038/s41598-017-05507-6.&nbsp;<a href="#facts"></a></li>
+          <li id="s3">NYC Vital Signs. <a href="https://www1.nyc.gov/assets/doh/downloads/pdf/survey/depression.pdf">"Depression among New York City Adults"</a>. April 2018. Volume 17, Number 2.&nbsp;<a href="#facts"></a></li>
+          <li id="s4"><a href="https://www1.nyc.gov/assets/home/downloads/pdf/press-releases/2015/thriveNYC_white_paper.pdf">"Understanding New York City's Mental Health Challenge".</a> The City of New York, Office of the Mayor, 2015.&nbsp;<a href="#facts"></a></li>
+          <li id="s5">Wulsin, Lawson, et al. <a href="https://link.springer.com/article/10.1007/s00127-014-0891-3">"Prevalence Rates for Depression by Industry: a Claims Database Analysis."</a> Social Psychiatry and Psychiatric Epidemiology, vol. 49, no. 11, Aug. 2014, pp. 1805–1821., doi:10.1007/s00127-014-0891-3.&nbsp;<a href="#facts"></a></li>
+          <li id="s6">Wray, N.R., Ripke, S., Mattheisen, M. et al. <a href="https://www.nature.com/articles/s41588-018-0090-3">"Genome-wide association analyses identify 44 risk variants and refine the genetic architecture of major depression."</a> Nat Genet 50, 668–681 (2018) doi:10.1038/s41588-018-0090-3.&nbsp;<a href="#facts"></a></li>
+          <li id="s7">National Institute of Health, 1998.&nbsp;<a href="#facts"></a></li>
+          <li id="s8">Gulliver, A., Griffiths, K.M., Christensen, H. <a href="https://bmcpsychiatry.biomedcentral.com/articles/10.1186/1471-244X-10-113">"Perceived barriers and facilitators to mental health help-seeking in young people: a systematic review."</a> BMC Psychiatry 10, 113 (2010) doi:10.1186/1471-244X-10-113.&nbsp;<a href="#facts"></a></li>
+          <li id="s9">Livingston J.D., Boyd J.E. <a href="https://www.ncbi.nlm.nih.gov/pubmed/21051128">"Correlates and Consequences of Internalized Stigma for People Living with Mental Illness: A Systematic Review and Meta-analysis."</a> Social Science &amp; Medicine 71(12):2150-2161, 2010.&nbsp;<a href="#facts"></a></li>
+          <li id="s10">Gustafsson K, Aronsson G, Marklund S, Wikman A, Floderus B. <a href="https://doi.org/10.1371/journal.pone.0080655">"Does Social Isolation and Low Societal Participation Predict Disability Pension? A Population Based Study."</a> PLoS ONE 8(11): e80655. 2013.&nbsp;<a href="#facts"></a></li>
+          <li id="s11">Watson, Amy C, et al. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2779887/">"Self-Stigma in People with Mental Illness."</a> Schizophrenia Bulletin, Oxford University Press, Nov. 2007.&nbsp;<a href="#facts"></a></li>
+          <li id="s12">David, Daniel, et al. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5797481/">"Why Cognitive Behavioral Therapy Is the Current Gold Standard of Psychotherapy."</a> Frontiers in psychiatry vol. 9 4. 29 Jan. 2018, doi:10.3389/fpsyt.2018.00004&nbsp;<a href="#treatment"></a></li>
+          <li id="s13">Rao, T S Sathyanarayana, et al. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2738337/">"Understanding nutrition, depression and mental illnesses."</a> Indian journal of psychiatry vol. 50,2 (2008): 77-82. doi:10.4103/0019-5545.42391&nbsp;<a href="#treatment"></a></li>
+          <li id="s14">Musselman, Nemeroff, et al. <a href="https://www.ncbi.nlm.nih.gov/pubmed/8864158">"Depression and endocrine disorders: focus on the thyroid and adrenal system."</a> Br J Psychiatry Suppl. 1996:123–128.&nbsp;<a href="#treatment"></a></li>
+          <li id="s15">F.B. Schuch, D. Vancampfort, et al. <a href="https://www.sciencedirect.com/science/article/abs/pii/S0022395616300383">"Exercise as a treatment for depression: A meta-analysis adjusting for publication bias"</a> Journal of Psychiatric Research, 77 (2016), pp. 42-51&nbsp;<a href="#treatment"></a></li>
+          <li id="s16">Segal, Z. V., Williams, J. M. G., Teasdale, J. D. <a href="https://books.google.com/books?id=QHRVDwAAQBAJ&printsec=frontcover&cad=0#v=onepage&q&f=false">"Mindfulness-based cognitive therapy for depression"</a> (2nd ed.). The Guilford Press. 2013.&nbsp;<a href="#treatment"></a></li>
+          <li id="s17">MacKenzie, Meagan B, and Nancy L Kocovski. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4876939/">"Mindfulness-based cognitive therapy for depression: trends and developments."</a> Psychology research and behavior management vol. 9 125-32. 19 May. 2016, doi:10.2147/PRBM.S63949&nbsp;<a href="#treatment"></a></li>
+          <li id="s18">Cipriani, Furukawa, Salanti, et al. <a href="https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(17)32802-7/fulltext">"Comparative efficacy and acceptability of 21 antidepressant drugs for the acute treatment of adults with major depressive disorder: a systematic review and network meta-analysis"</a> The Lancet, vol. 391, no. 10128, pp. 13572018.&nbsp;<a href="#treatment"></a></li>
+          <li id="s19">Jablonski MR, King N, et al. <a href="https://www.ncbi.nlm.nih.gov/pubmed/29739269">"Analytical validation of a psychiatric pharmacogenomic test."</a> Personalized Medicine. 2018; epub ahead of print. doi: 10.2217/pme-2017-0094.&nbsp;<a href="#treatment"></a></li>
+          <li id="s20">Grady, Sarah E et al. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6007654/">"Ketamine for the treatment of major depressive disorder and bipolar depression: A review of the literature."</a> The mental health clinician vol. 7,1 16-23. 23 Mar. 2018, doi:10.9740/mhc.2017.01.016&nbsp;<a href="#treatment"></a></li>
+          <li id="s21">Stern, Adam P. <a href="www.health.harvard.edu/blog/transcranial-magnetic-stimulation-for-depression-2018022313335">"Transcranial Magnetic Stimulation (TMS): Hope for Stubborn Depression."</a> Harvard Health Blog, 23 Feb. 2018.&nbsp;<a href="#treatment"></a></li>
+          <li id="s22">Kellner C. H., Greenberg R. M., et al. <a href="https://ajp.psychiatryonline.org/doi/full/10.1176/appi.ajp.2012.12050648">"ECT in treatment-resistant depression."</a> The American Journal of Psychiatry. 2012;169(12):1238–1244. doi: 10.1176/appi.ajp.2012.12050648.&nbsp;<a href="#treatment"></a></li>
+          <li id="s23">Carhart-Harris, Robin L, et al. <a href="https://www.sciencedirect.com/science/article/pii/S2215036616300657">"Psilocybin with Psychological Support for Treatment-Resistant Depression: an Open-Label Feasibility Study."</a> The Lancet Psychiatry, vol. 3, no. 7, 2016, pp. 619–627., doi:10.1016/s2215-0366(16)30065-7.&nbsp;<a href="#treatment"></a></li>
+          <li id="s24">Polito, Vince, and Richard J Stevenson. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6364961/">"A systematic study of microdosing psychedelics."</a> PloS one vol. 14,2 e0211023. 6 Feb. 2019, doi:10.1371/journal.pone.0211023&nbsp;<a href="#treatment"></a></li>
+          <li id="s25">Kohler, Ole et al. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5050394/">"Inflammation in Depression and the Potential for Anti-Inflammatory Treatment."</a> Current neuropharmacology vol. 14,7 (2016): 732-42. doi:10.2174/1570159x14666151208113700&nbsp;<a href="#treatment"></a></li>
+          <li id="s26">Mullish, B H. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6343820/">"Letter: improvements in mental health after faecal microbiota transplantation-an underexplored treatment-related benefit?."</a> Alimentary pharmacology and therapeutics vol. 47,11 (2018): 1562-1563. doi:10.1111/apt.14626&nbsp;<a href="#treatment"></a></li>
+          <li id="s27">Pratt LA, Brody DJ, Gu Q. <a href="https://www.cdc.gov/nchs/products/databriefs/db283.htm">"Antidepressant use among persons aged 12 and over: United States, 2011–2014."</a> NCHS data brief, no 283. Hyattsville, MD: National Center for Health Statistics. 2017.&nbsp;<a href="#facts"></a></li>
+          <li id="s28">Teo AR, Choi H, Valenstein M. <a href="https://www.ncbi.nlm.nih.gov/pubmed/23646128">"Social Relationships and Depression: Ten-Year Follow-Up from a Nationally Representative Study."</a> PLoS ONE 8(4): e62396.&nbsp;<a href="#treatment"></a></li>
+        </ol>
+      </div>
+  </section>
+  
+include(`src/_footer.html')
