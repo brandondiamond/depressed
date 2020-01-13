@@ -80,7 +80,7 @@ include(`src/_header.html')
         <div class="content">
           <h1>Depression is more than sadness.</h1>
           <div class="text">
-            <p><strong>Depression can be debilitating</strong>. It affects people from every background and every borough.</p>
+            <p><strong>Depression can be debilitating</strong>. It affects people from every borough and every background.</p>
           </div>
           <div class="actions">
             <a class="button" href="stories.html">Read our stories</a>

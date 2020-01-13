@@ -6,7 +6,7 @@ include(`src/_header.html')
         <div class="content">
           <h1>Depression is a medical condition.</h1>
           <div class="text">
-            <p><strong>10% of New Yorkers</strong> live with depression&mdash; <strong>most</strong> don't seek help because of the stigma.</p>
+            <p><strong>10% of New Yorkers</strong> live with depression, but stigma stops most from getting help.</p>
           </div>
           <div class="actions">
             <hr />
@@ -35,8 +35,8 @@ include(`src/_header.html')
           <h3>Depression is a medical condition</h3>
           <ul>
             <li>Depression alters thoughts and feelings.<sup><a href="#s1">1</a></li>
-            <li>Depressed brains often have <mark>structural changes.</mark><sup><a href="#s2">2</a></sup></li>
-            <li>Many struggle to feel anything but numbness.<sup><a href="#s1">1</a></sup></li>
+            <li>Depressed brains can have <mark>physical changes.</mark><sup><a href="#s2">2</a></sup></li>
+            <li>It's just just sadness; often, it's feeling numb.<sup><a href="#s1">1</a></sup></li>
             <li><mark>Neuroanatomy<sup><a href="#s1">1</a></sup> and genetics<sup><a href="#s6">6</a></sup></mark> play a significant role.</li>
           </ul>
         </div>
@@ -47,7 +47,7 @@ include(`src/_header.html')
             <li>Depression is the greatest source of disability in NYC.<sup><a href="#s3">3</a></sup></li>
             <li><mark>8% of men</mark> and <mark>10% of women</mark> are depressed.<sup><a href="#s3">3</a></sup></li>
             <li>Depression contributes to $14 billion in annual losses.<sup><a href="#s4">4</a></sup></li>
-            <li>About <mark>1 in 5 new yorkers</mark> will experience mental illness.<sup><a href="#s4">4</a></sup></li>
+            <li>About <mark>1 in 5 new yorkers</mark> experience mental illness yearly.<sup><a href="#s4">4</a></sup></li>
           </ul>
         </div>
 
@@ -55,7 +55,7 @@ include(`src/_header.html')
           <h3>Depression can affect anyone</h3>
           <ul>
             <li>Anyone can be depressed, even "successful" people.</li>
-            <li>Women are <mark>twice as likely</mark> to be depressed in the U.S.<sup><a href="#s3">3</a></sup></li>
+            <li>Women are <mark>twice as likely</mark> to be depressed overall.<sup><a href="#s3">3</a></sup></li>
             <li>Some jobs increase the risk (e.g., real estate, law, transit).<sup><a href="#s5">5</a></sup></li>
             <li>Underserved communities are <mark>2-3x more vulnerable.</mark><sup><a href="#s3">3</a></sup></li>
           </ul>
@@ -64,15 +64,15 @@ include(`src/_header.html')
         <div class="info">
           <h3>Depression is treatable</h3>
           <ul>
-            <li>80% of people improve after 4-6 weeks of treatment.<sup><a href="#s7">7</a></sup></li>
+            <li>80% see improvement within 4-6 weeks of treatment.<sup><a href="#s7">7</a></sup></li>
             <li>&hellip; But <mark>two thirds of New Yorkers</mark> don't get help.<sup><a href="#s3">3</a></sup></li>
-            <li>Younger New Yorkers are nearly half as likely to get help.<sup><a href="#s3">3</a></sup></li>
+            <li>Younger New Yorkers are half as likely to get help.<sup><a href="#s3">3</a></sup></li>
             <li><mark>13% of Americans</mark> take antidepressants.<sup><a href="#s27">27</a></sup></li>
           </ul>
         </div>
 
         <div class="info">
-          <h3>Stigma blocks treatment</h3>
+          <h3>Stigma is an obstacle</h3>
           <ul>
             <li>Stigma destroys hope and self-esteem.<sup><a href="#s9">9</a></sup></li>
             <li>Misconceptions lead to embarassment and isolation.</li>
@@ -87,7 +87,7 @@ include(`src/_header.html')
   <section id="symptoms" class="tertiary">
     <div class="frame">
       <h2>Learn the symptoms<a href="#page-top"></a></h2>
-      <p><strong>Depression is more than sadness.</strong> If you've experienced any of the following symptoms for two weeks or more, you should talk to your doctor.</p>
+      <p><strong>Depression is more than sadness.</strong> If you've experienced any of these symptoms for more than two weeks, you should talk to your doctor.</p>
 
       <div class="symptoms-group">
         <div class="symptoms">
@@ -118,7 +118,7 @@ include(`src/_header.html')
           <ul>
             <li>Isolating yourself.</li>
             <li>Losing interest in hobbies.</li>
-            <li>Avoiding friends and family.</li>
+            <li>Avoiding friends or family.</li>
             <li>Difficulty making decisions.</li>
           </ul>
         </div>
@@ -139,7 +139,7 @@ include(`src/_header.html')
           <h3>Sex differences<sup><a href="#s1">1</a></sup></h3>
           <ul>
             <li><strong>Women</strong> tend to feel sad, worthless, or guilty.</li>
-            <li><strong>Men</strong> tend to feel tired, irritable, or to lose interest.</li>
+            <li><strong>Men</strong> tend to feel tired, irritable, or withdrawn.</li>
           </ul>
         </div>
       </div>
@@ -149,7 +149,7 @@ include(`src/_header.html')
   <section id="treatment">
     <div class="frame">
       <h2>Learn about treatment<a href="#page-top"></a></h2>
-      <p>There are <strong>many options</strong> for treating depression. In fact, 80% of people see improvement from treatment in the first few weeks.<sup><a href="#s7">7</a></sup></p>
+      <p>There are <strong>many options</strong> for treating depression. In fact, 80% of people start to feel better within the first few weeks of treatment.<sup><a href="#s7">7</a></sup></p>
       <ol>
         <li><a href="#treatment-1">First steps</a></li>
         <li><a href="#treatment-2">Next steps</a></li>
@@ -188,7 +188,7 @@ include(`src/_header.html')
           <div class="treatment">
             <div class="type">Therapy</div>
             <div class="label">Cognitive behavioral therapy (CBT)</div>
-            <div class="notes">CBT is an effective<sup><a href="#s12">12</a></sup> type of talk therapy that helps you change your thought process.</div>
+            <div class="notes">CBT is an effective<sup><a href="#s12">12</a></sup> type of talk therapy that helps you alter your thought process.</div>
             <div class="actions"><a class="button outline" target="_blank" href="https://www.healthline.com/health/depression/cognitive-behavioral-therapy">Learn more</a></div>
           </div>
 
@@ -212,7 +212,7 @@ include(`src/_header.html')
           <div class="treatment">
             <div class="type">Lifestyle</div>
             <div class="label">Eat healthy</div>
-            <div class="notes">Issues with your diet can lead to depression.<sup><a href="#s13">13</a></sup> Your doctor can rule out any deficiencies.</div>
+            <div class="notes">Issues with your diet can lead to depression.<sup><a href="#s13">13</a></sup> Your doctor can test for possible deficiencies.</div>
             <div class="actions"><a class="button outline" target="_blank" href="https://www.health.harvard.edu/blog/diet-and-depression-2018022213309">Learn more</a></div>
           </div>
 
@@ -226,7 +226,7 @@ include(`src/_header.html')
           <div class="treatment">
             <div class="type">Lifestyle</div>
             <div class="label">Mindfulness</div>
-            <div class="notes">Mindfulness is a way of thinking that can help your brain adapt<sup><a href="#s16">16</a></sup>, reducing the risk of relapse by half.<sup><a href="#s17">17</a></sup></div>
+            <div class="notes">Mindfulness is a way of thinking that can help your brain adapt,<sup><a href="#s16">16</a></sup> reducing the risk of relapse by half.<sup><a href="#s17">17</a></sup></div>
             <div class="actions"><a class="button outline" target="_blank" href="https://psychcentral.com/blog/how-does-mindfulness-reduce-depression-an-interview-with-john-teasdale-ph-d/">Learn more</a></div>
           </div>
         </div>
@@ -243,14 +243,14 @@ include(`src/_header.html')
           <div class="treatment">
             <div class="type">Exam</div>
             <div class="label">Genetic testing</div>
-            <div class="notes">Testing can improve treatment by identifying the medications that are most likely to work for you.<sup><a href="#s19">19</a></sup></div>
+            <div class="notes">Genetic tests can help your doctor suggest medicines that are more likely to work for you.<sup><a href="#s19">19</a></sup></div>
             <div class="actions"><a class="button outline" target="_blank" href="https://www.health.harvard.edu/blog/gene-testing-to-guide-antidepressant-treatment-has-its-time-arrived-2019100917964">Learn more</a></div>
           </div>
 
           <div class="treatment">
             <div class="type">Medication</div>
             <div class="label">Ketamine</div>
-            <div class="notes">Ketamine is an effective<sup><a href="#s20">20</a></sup> option for treatment-resistent depression that can work quickly.</div>
+            <div class="notes">Ketamine is an effective<sup><a href="#s20">20</a></sup> option for treatment-resistent depression. Unlike antidepressants, ketamine starts working quickly.</div>
             <div class="actions"><a class="button outline" target="_blank" href="https://www.health.harvard.edu/blog/ketamine-for-major-depression-new-tool-new-questions-2019052216673">Learn more</a></div>
           </div>
         </div>
@@ -284,7 +284,7 @@ include(`src/_header.html')
           <div class="treatment">
             <div class="type">Medication</div>
             <div class="label">Psilocybin</div>
-            <div class="notes">The FDA recently granted psylocibin "breakthrough therapy" status after a successful feasibility study.<sup><a href="#s23">23</a></sup></div>
+            <div class="notes">The FDA recently granted psylocibin "breakthrough therapy" status after successful feasibility<sup><a href="#s23">23</a></sup> and safety<sup><a href="#s29">29</a></sup> studies.</div>
             <div class="actions"><a class="button outline" target="_blank" href="https://www.medscape.com/viewarticle/921789">Learn more</a></div>
           </div>
 
@@ -347,6 +347,7 @@ include(`src/_urgent.html')
           <li id="s26">Mullish, B H. <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6343820/">"Letter: improvements in mental health after faecal microbiota transplantation-an underexplored treatment-related benefit?."</a> Alimentary pharmacology and therapeutics vol. 47,11 (2018): 1562-1563. doi:10.1111/apt.14626&nbsp;<a href="#treatment"></a></li>
           <li id="s27">Pratt LA, Brody DJ, Gu Q. <a href="https://www.cdc.gov/nchs/products/databriefs/db283.htm">"Antidepressant use among persons aged 12 and over: United States, 2011–2014."</a> NCHS data brief, no 283. Hyattsville, MD: National Center for Health Statistics. 2017.&nbsp;<a href="#facts"></a></li>
           <li id="s28">Teo AR, Choi H, Valenstein M. <a href="https://www.ncbi.nlm.nih.gov/pubmed/23646128">"Social Relationships and Depression: Ten-Year Follow-Up from a Nationally Representative Study."</a> PLoS ONE 8(4): e62396.&nbsp;<a href="#treatment"></a></li>
+          <li id="s29">Agin-Liebes GI, Malone T, Yalch MM, et al. <a href="https://www.ncbi.nlm.nih.gov/pubmed/31916890">"Long-term follow-up of psilocybin-assisted psychotherapy for psychiatric and existential distress in patients with life-threatening cancer."</a> J Psychopharmacol. 2020 Jan 9:269881119897615. doi: 10.1177/0269881119897615.&nbsp;<a href="#treatment"></a></li>
         </ol>
       </div>
   </section>

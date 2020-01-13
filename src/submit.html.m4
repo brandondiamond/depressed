@@ -58,8 +58,9 @@ include(`src/_header.html')
 
       <div class="examples">
         <q>For me, depression is less about feeling sad and more about feeling nothing. Things just don&rsquo;t matter.</q>
-        <q>My friends try to reach out, and I miss them, but I just don&rsquo;t have any energy to reply.</q>
         <q>I go to work, go through the motions, nobody knows that I&rsquo;m on the verge of bursting into tears.</q>
+        <q>My friends try to reach out, and I miss them, but I just don&rsquo;t have any energy to reply.</q>
+        <q>I didn't realize TMS was a thing but I was lucky enough to have a chance to do it and it really helped.</q>
         <q>It&rsquo;s just that I have no more energy to fight and feel broken all the time.</q>
         <q>After years of being numb and resigned, I decided to give medication one more try... after finding the right one, I started to feel better.</q>
       </div>
