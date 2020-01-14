@@ -243,7 +243,7 @@ include(`src/_header.html')
           <div class="treatment">
             <div class="type">Exam</div>
             <div class="label">Genetic testing</div>
-            <div class="notes">Genetic tests can help your doctor suggest medicines that are more likely to work for you.<sup><a href="#s19">19</a></sup></div>
+            <div class="notes">Genetic tests help identify treatments that are more likely to work for you.<sup><a href="#s19">19</a></sup></div>
             <div class="actions"><a class="button outline" target="_blank" href="https://www.health.harvard.edu/blog/gene-testing-to-guide-antidepressant-treatment-has-its-time-arrived-2019100917964">Learn more</a></div>
           </div>
 
