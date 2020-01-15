@@ -66,7 +66,7 @@ include(`src/_header.html')
           <ul>
             <li>80% see improvement within 4-6 weeks of treatment.<sup><a href="#s7">7</a></sup></li>
             <li>&hellip; But <mark>two thirds of New Yorkers</mark> don't get help.<sup><a href="#s3">3</a></sup></li>
-            <li>Younger New Yorkers are half as likely to get help.<sup><a href="#s3">3</a></sup></li>
+            <li>Younger New Yorkers are half as likely to receive treatment.<sup><a href="#s3">3</a></sup></li>
             <li><mark>13% of Americans</mark> take antidepressants.<sup><a href="#s27">27</a></sup></li>
           </ul>
         </div>
@@ -75,9 +75,9 @@ include(`src/_header.html')
           <h3>Stigma is an obstacle</h3>
           <ul>
             <li>Stigma destroys hope and self-esteem.<sup><a href="#s9">9</a></sup></li>
-            <li>Misconceptions lead to embarassment and isolation.</li>
-            <li><mark>Isolation makes symptoms worse.</mark><sup><a href="#s10">10</a></sup></li>
-            <li>Stigma may be <mark>internalized</mark>, making it harder to seek help.<sup><a href="#s11">11</a></li>
+            <li>Misconceptions create stigma and isolation.</li>
+            <li><mark>&hellip; And isolation makes symptoms worse.</mark><sup><a href="#s10">10</a></sup></li>
+            <li>Stigma is <mark>internalized</mark>, making it harder to seek help.<sup><a href="#s11">11</a></li>
           </ul>
         </div>
       </div>
@@ -164,7 +164,7 @@ include(`src/_header.html')
           <div class="treatment">
             <div class="type">Lifestyle</div>
             <div class="label">Tell someone</div>
-            <div class="notes">Reaching out can be hard, but it's a big help when you're depressed. It may even reduce symptoms.<sup><a href="#s28">28</a></sup></div>
+            <div class="notes">Reaching out can be hard, but it's a big help when you're depressed. It can even improve symptoms.<sup><a href="#s28">28</a></sup></div>
             <div class="actions"><a class="button outline" target="_blank" href="https://www.everydayhealth.com/hs/major-depression-resource-center/how-when-to-talk-about-depression/">Learn more</a></div>
           </div>
 
@@ -188,14 +188,14 @@ include(`src/_header.html')
           <div class="treatment">
             <div class="type">Therapy</div>
             <div class="label">Cognitive behavioral therapy (CBT)</div>
-            <div class="notes">CBT is an effective<sup><a href="#s12">12</a></sup> type of talk therapy that helps you alter your thought process.</div>
+            <div class="notes">CBT is an effective<sup><a href="#s12">12</a></sup> type of talk therapy that helps you modify your thought process.</div>
             <div class="actions"><a class="button outline" target="_blank" href="https://www.healthline.com/health/depression/cognitive-behavioral-therapy">Learn more</a></div>
           </div>
 
           <div class="treatment">
             <div class="type">Therapy</div>
             <div class="label">Talk therapy</div>
-            <div class="notes">There are many types of talk therapy that help with depression. Both one-on-one and group-based sessions are effective.</div>
+            <div class="notes">There are many types of talk therapy that help with depression. Both one-on-one and group-based sessions<sup><a href="#s30">30</a></sup> are effective.</div>
             <div class="actions"><a class="button outline" target="_blank" href="https://www.webmd.com/depression/guide/treatment-resistant-depression-psychotherapy">Learn more</a></div>
           </div>
 
@@ -212,14 +212,14 @@ include(`src/_header.html')
           <div class="treatment">
             <div class="type">Lifestyle</div>
             <div class="label">Eat healthy</div>
-            <div class="notes">Issues with your diet can lead to depression.<sup><a href="#s13">13</a></sup> Your doctor can test for possible deficiencies.</div>
+            <div class="notes">Issues with your diet can lead to depression.<sup><a href="#s13">13</a></sup> Your regular doctor can test for possible deficiencies.</div>
             <div class="actions"><a class="button outline" target="_blank" href="https://www.health.harvard.edu/blog/diet-and-depression-2018022213309">Learn more</a></div>
           </div>
 
           <div class="treatment">
             <div class="type">Lifestyle</div>
             <div class="label">Get exercise</div>
-            <div class="notes">Aerobic exercise like taking a walk or spending time at the gym can reduce the symptoms of depression.<sup><a href="#s15">15</a></sup></div>
+            <div class="notes">Aerobic exercise like taking a walk or spending time at the gym can improve depression symptoms.<sup><a href="#s15">15</a></sup></div>
             <div class="actions"><a class="button outline" target="_blank" href="https://www.health.harvard.edu/mind-and-mood/exercise-is-an-all-natural-treatment-to-fight-depression">Learn more</a></div>
           </div>
 
@@ -236,7 +236,7 @@ include(`src/_header.html')
           <div class="treatment">
             <div class="type">Medication</div>
             <div class="label">Antidepressants</div>
-            <div class="notes">The right antidepressant can make a big difference.<sup><a href="#s18">18</a></sup> Your doctor can help you choose the best medicine and dosage for your symptoms.</div>
+            <div class="notes">The right antidepressant can make a big difference.<sup><a href="#s18">18</a></sup> Work with your doctor to find the best medicine and dosage for you.</div>
             <div class="actions"><a class="button outline" target="_blank" href="https://www.healthline.com/health/depression/medication-list">Learn more</a></div>
           </div>
 
@@ -305,7 +305,7 @@ include(`src/_header.html')
           <div class="treatment">
             <div class="type">Procedure</div>
             <div class="label">Fecal microbiota transplant (FMT)</div>
-            <div class="notes">An early study found that following FMT, 30% of patients reported a mental health improvement.<sup><a href="#s26">26</a></sup></div>
+            <div class="notes">An early study found that 30% of patients reported mental health improvements following FMT.<sup><a href="#s26">26</a></sup></div>
             <div class="actions"><a class="button outline" target="_blank" href="https://www.nature.com/articles/d41586-019-00483-5">Learn more</a></div>
           </div>
         </div>
@@ -348,6 +348,7 @@ include(`src/_urgent.html')
           <li id="s27">Pratt LA, Brody DJ, Gu Q. <a href="https://www.cdc.gov/nchs/products/databriefs/db283.htm">"Antidepressant use among persons aged 12 and over: United States, 2011–2014."</a> NCHS data brief, no 283. Hyattsville, MD: National Center for Health Statistics. 2017.&nbsp;<a href="#facts"></a></li>
           <li id="s28">Teo AR, Choi H, Valenstein M. <a href="https://www.ncbi.nlm.nih.gov/pubmed/23646128">"Social Relationships and Depression: Ten-Year Follow-Up from a Nationally Representative Study."</a> PLoS ONE 8(4): e62396.&nbsp;<a href="#treatment"></a></li>
           <li id="s29">Agin-Liebes GI, Malone T, Yalch MM, et al. <a href="https://www.ncbi.nlm.nih.gov/pubmed/31916890">"Long-term follow-up of psilocybin-assisted psychotherapy for psychiatric and existential distress in patients with life-threatening cancer."</a> J Psychopharmacol. 2020 Jan 9:269881119897615. doi: 10.1177/0269881119897615.&nbsp;<a href="#treatment"></a></li>
+          <li id="s30">McDermut W, Miller IW, Brown RA. <a href="https://ebmh.bmj.com/content/ebmental/4/3/82.full.pdf">"The efficacy of group psychotherapy for depression: a meta-analysis and review of the empirical research."</a> Clinical Psychology: Science and Practice. 2001 Spring;8:98–116.&nbsp;<a href="#treatment"></a></li>
         </ol>
       </div>
   </section>
