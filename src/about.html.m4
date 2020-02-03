@@ -50,8 +50,8 @@ include(`src/_header.html')
         <li><p>Brandon Diamond</p></li>
         <li><p>Derek Bradley</p></li>
         <li><hr /></li>
-        <li><a class="button outline" href="volunteer@depressed.nyc">Get Involved</a></li>
-        <li><a class="button outline" href="press@depressed.nyc">Press Inquiries</a></li>
+        <li><a class="button outline" href="volunteer.html">Volunteer</a></li>
+        <li><a class="button outline" href="mailto:press@depressed.nyc">Press Inquiries</a></li>
       </ul>
     </div>
   </section>

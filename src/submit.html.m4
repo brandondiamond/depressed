@@ -48,7 +48,7 @@ include(`src/_header.html')
           <label class="tos">I have read and agreed to the <a target="_blank" href="legal.html">terms of service</a>.</label>
         </div>
         <div>
-          <button class="button outline" type="button">Submit</button>
+          <button class="button outline" type="submit">Submit</button>
         </div>
       </form>
       

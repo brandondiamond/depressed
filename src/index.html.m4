@@ -15,7 +15,7 @@ include(`src/_header.html')
 
         <div class="art">
           <figure>
-            <img src="img/rain-nobg.svg">
+            <img src="img/rain.svg">
           </figure>
         </div>
       </div>
@@ -54,6 +54,26 @@ include(`src/_header.html')
      </div>
   </section>
   
+  <section id="stories-overview">
+    <div class="frame">
+      <div class="hero">
+        <div class="content">
+          <h1>Real stories from <br/> New Yorkers.</h1>
+          <div class="text">
+            <p><strong>New york is depressed</strong>. We profile a new yorker living with depression <a target="_blank" href="http://instagram.com/depressednyc">every week</a>.</p>
+          </div>
+          <div class="actions">
+            <a class="button" href="stories.html">Read our stories</a>
+          </div>
+        </div>
+
+        <div class="art">
+          <img src="img/bolt.svg">
+        </div>
+      </div>
+    </div>
+  </section>
+
   <section id="facts-overview">
     <div class="frame">
       <div class="hero">
@@ -68,32 +88,12 @@ include(`src/_header.html')
         </div>
 
         <div class="art">
-          <img src="img/bolt.svg">
-        </div>
-      </div>
-    </div>
-  </section>
-  
-  <section id="stories-overview">
-    <div class="frame">
-      <div class="hero">
-        <div class="content">
-          <h1>Depression is more than sadness.</h1>
-          <div class="text">
-            <p><strong>Depression can be debilitating</strong>. It affects people from every borough and every background.</p>
-          </div>
-          <div class="actions">
-            <a class="button" href="stories.html">Read our stories</a>
-          </div>
-        </div>
-
-        <div class="art">
           <img src="img/music.svg">
         </div>
       </div>
     </div>
   </section>
-    
+  
   <section id="action-overview">
     <div class="frame">
       <div class="hero">

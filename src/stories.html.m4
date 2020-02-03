@@ -4,11 +4,14 @@ include(`src/_header.html')
     <div class="frame">
       <div class="hero">
         <div class="content">
-          <h1>Depression is more than sadness.</h1>
+          <h1>Real stories from<br /> New Yorkers.</h1>
           <div class="text">
-            <p><strong>Half a million people</strong> live with depression in New York City&mdash; these are just a few of their stories.</p>
+            <p><strong>Half a million people</strong> live with depression in New York City&mdash;<br /> we <a href="http://instagram.com/depressednyc" target="_blank">feature</a> one of their stories, weekly.</p>
           </div>
-          <a class="button outline" href="submit.html">add your story</a>
+          <div class="actions">
+            <a class="button" target="_blank" href="http://instagram.com/depressednyc">Follow</a>
+            <a class="button outline" href="submit.html">Submit</a>
+          </div>
         </div>
 
         <div class="art">
