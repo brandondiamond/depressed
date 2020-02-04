@@ -41,7 +41,7 @@ include(`src/_header.html')
           <div class="content">
             <p>Show your support for those living with depression.</p>
             <ul>
-              <li><strong><a href="https://docs.google.com/document/d/1KcMu3xD8GXddw_NiA8K3y50L4ZMki8-VJN7xgjQ1igY/edit?usp=sharing" target="_blank">Post a flier</a></strong> at your office.</li>
+              <li><strong><a href="https://docs.google.com/document/d/1KcMu3xD8GXddw_NiA8K3y50L4ZMki8-VJN7xgjQ1igY/edit?usp=sharing" target="_blank">Post a flyer</a></strong> at your office.</li>
               <li><strong><a href="http://depressed.threadless.com" target="_blank">Wear a band</a></strong> or a t-shirt.</li>
               <li><strong><a href="http://instagram.com/depressednyc" target="_blank">Tell friends</a></strong> about our cause.</li>
             </ul>
