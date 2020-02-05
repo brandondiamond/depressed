@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <meta charset="utf-8">
+  <title>depressed.nyc</title>
+  <link rel="icon" type="image/png" href="img/sad.png">
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch:400,700|Open+Sans:300,400i,700&display=swap" rel="stylesheet">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-155207422-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-155207422-1');
+  </script>
+</head>
+
+<body id="page-top">
+  <header>
+    <div class="logo">
+      <a href="index.html">depressed<em>.</em>nyc</a>
+    </div>
+    <nav>
+      <span class="hamburger"></span> 
+      <ul>
+        <li><a href="stories.html">Stories</a></li>
+        <li><a href="facts.html">Facts</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a class="main" href="action.html">Take Action</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <section id="volunteer" class="primary informational">
+    <div class="frame">
+      <h1>Get Involved</h1>
+      <p>Depressed NYC is a grassroots movement committed to fighting depression in New York City through storytelling, outreach, and visibility.</p>
+      <p>If you're passionate about fighting depression in NYC, we'd love to collaborate&mdash; all skillsets can make a difference.</p>
+
+      <hr />
+
+      <form>
+        <div class="message">Your information has been submitted. Thank you!</div>
+        <div>
+          <label>Name</label>
+          <input type="text" name="name" placeholder="John Smith" required>
+        </div>
+        <div>
+          <label>Email</label>
+          <div class="hint">We'll follow-up with you by email.</div>
+          <input type="email" name="email" placeholder="jsmith@example.com" required>
+        </div>
+        <div>
+          <label>Your Background</label>
+          <div class="hint">How would you like to contribute?</div>
+          <textarea name="background" placeholder="Please type your background here." required></textarea>
+        </div>
+        <div>
+          <button class="button outline" type="submit">Submit</button>
+        </div>
+      </form>
+  </section>
+
+  <section id="urgent">
+    <div class="frame">
+      <h1><strong>Feeling overwhelmed?</strong> Call or text <a href="https://nycwell.cityofnewyork.us/en/">NYC Well</a> for confidential help.</h1>
+      <p>If you or someone you know is considering suicide, call the National Suicide Prevention Lifeline at <strong>1-800-273-8255</strong> or, in an emergency, <strong>911</strong>.</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="logo">
+      <a href="index.html">depressed.nyc</a>
+    </div>
+    <nav>
+      <ul>
+        <li>&copy; 2020</li>
+        <li><a href="legal.html">Terms of Service</a></li>
+        <li>Inspired by <span class="pink"></span></li>
+      </ul>
+    </nav>
+    <div class="social">
+      <a href="http://fb.com/depressednyc" target="_blank"><img src="img/fb.svg"></img></a>
+      <a href="http://instagram.com/depressednyc" target="_blank"><img src="img/insta.svg"></img></a>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+  <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us4.list-manage.com","uuid":"276f4f8342ea18c3f1a1e4a4c","lid":"1f8f2d53de","uniqueMethods":true}) })</script>
+</body>
+</html>
+
+<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-firestore.js"></script>
