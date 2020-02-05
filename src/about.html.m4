@@ -49,6 +49,8 @@ include(`src/_header.html')
       <ul class="flow">
         <li><p>Brandon Diamond</p></li>
         <li><p>Derek Bradley</p></li>
+        <li><p>Heather Danielsen</p></li>
+        <li><p>Mariah Parker</p></li>
         <li><hr /></li>
         <li><a class="button outline" href="volunteer.html">Volunteer</a></li>
         <li><a class="button outline" href="mailto:press@depressed.nyc">Press Inquiries</a></li>
