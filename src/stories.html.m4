@@ -51,16 +51,19 @@ include(`src/_header.html')
         -->
 
         <div class="story" data-keys="woman challenges hope">
-          <img src="img/stories/christine.jpg">
+          <div class="image">
+            <img src="img/stories/christine.jpg">
+          </div>
           <div class="content">
             <div class="date">February 4th, 2020</div>
             <p>Depression and anxiety crept in while I was in my early 20’s. Before that, I took my health for granted. But, working as a fitness professional and dietitian, I felt under immense pressure to look, eat, and live a certain way. So when I started to feel exhausted all the time, hopeless, &amp; binge eating every day to numb out from everything I didn’t want to deal with around me, I went deeper into a shame spiral.</p>
             <p>“This was NOT how someone who is supposed to know what to eat and how to exercise behaves,” I would tell myself. I felt like I was always failing. At the time I really had no idea what was happening. All I knew was I was I was a shell of the person I used to be, and was too embarrassed to say anything to anyone about. I felt there was nothing to look forward to, and I felt like there never would be again.</p>
             <p>One day I made a connection after I dragged myself to a yoga class that I felt significantly better, lighter, more myself than I had in a year. Movement, the thing I took for granted previously, ended up being the thing that helped me lift myself out of depression. My purpose became healing myself, and my anti-depressant of choice was moving my body</p>
             <div class="attribution">
-              <span class="name">Christine Coen (<a href="http://instagram.com/deadliftsoverdepression" target="_blank">@deadliftsoverdepression</a>)</span>
+              <span class="name">Christine Coen</span>
               <span class="gender hide">Woman</span>
-              <span class="job">Founder &amp; RD</span>
+              <span class="job">Founder, The Warrior Evolution</span>
+              <span class="extra"><a href="http://instagram.com/christine.coen" target="_blank">@christine.coen</a></span>
             </div>
           </div>
         </div>
